@@ -1,0 +1,1 @@
+# josm-mapgrid-plugin
