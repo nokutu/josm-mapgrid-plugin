@@ -120,7 +120,7 @@ jar {
       "Author": project.property('plugin.author'),
       "Plugin-Link": project.property('plugin.link'),
       "Plugin-Icon": project.property("plugin.icon"),
-      "Plugin-Requires": project.property("plugin.requires"),
+      //"Plugin-Requires": project.property("plugin.requires"),
       "Plugin-Canloadatruntime": project.property('plugin.canloadatruntime')
     )
   }

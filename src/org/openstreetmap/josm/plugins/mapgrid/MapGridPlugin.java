@@ -1,12 +1,17 @@
 // License: GPL. For details, see LICENSE file.
 package org.openstreetmap.josm.plugins.mapgrid;
 
+import static org.openstreetmap.josm.tools.I18n.tr;
+
 import org.openstreetmap.josm.Main;
+import org.openstreetmap.josm.gui.MainMenu;
 import org.openstreetmap.josm.gui.MapFrame;
 import org.openstreetmap.josm.gui.preferences.PreferenceSetting;
 import org.openstreetmap.josm.plugins.Plugin;
 import org.openstreetmap.josm.plugins.PluginInformation;
 import org.openstreetmap.josm.tools.ImageProvider;
+
+import javax.swing.*;
 
 /**
  * This is the main class of the Mapillary plugin.
@@ -14,6 +19,11 @@ import org.openstreetmap.josm.tools.ImageProvider;
  * @author nokutu
  */
 public class MapGridPlugin extends Plugin {
+
+  public static final ImageIcon ICON24 = new ImageProvider("icon24.png").get();
+
+  private CreateGridAction createGridAction;
+  private JMenuItem createGridMenu;
 
   /**
    * OS route separator
@@ -27,6 +37,8 @@ public class MapGridPlugin extends Plugin {
    */
   public MapGridPlugin(PluginInformation info) {
     super(info);
+    createGridAction = new CreateGridAction(this);
+    createGridMenu = MainMenu.add(Main.main.menu.viewMenu, createGridAction, false);
   }
 
   /**

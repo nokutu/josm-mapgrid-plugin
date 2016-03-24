@@ -1,12 +1,18 @@
 package org.openstreetmap.josm.plugins.mapgrid;
 
+import static org.openstreetmap.josm.tools.I18n.tr;
+
+import org.openstreetmap.josm.Main;
 import org.openstreetmap.josm.data.Bounds;
+import org.openstreetmap.josm.data.coor.LatLon;
 import org.openstreetmap.josm.data.osm.visitor.BoundingXYVisitor;
 import org.openstreetmap.josm.gui.MapView;
 import org.openstreetmap.josm.gui.layer.Layer;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 import static org.openstreetmap.josm.tools.I18n.tr;
 
@@ -18,24 +24,48 @@ import static org.openstreetmap.josm.tools.I18n.tr;
  */
 public class MapGridLayer extends Layer {
 
+  private Grid head;
+  private MapGridPlugin plugin;
 
-  public MapGridLayer() {
+  public MapGridLayer(MapGridPlugin plugin) {
     super(tr("MapGrid layer"));
+    this.plugin = plugin;
+  }
+
+  public void createGrid() {
+    Main.map.mapView.addMouseListener(new MouseAdapter() {
+
+      LatLon from;
+      LatLon to;
+
+      @Override
+      public void mouseClicked(MouseEvent e) {
+        if (from == null) {
+          from = Main.map.mapView.getLatLon(e.getX(), e.getY());
+        } else if (to == null) {
+          to = Main.map.mapView.getLatLon(e.getX(), e.getY());
+          head = new Grid(from, to);
+          Main.map.mapView.removeMouseListener(this);
+        }
+      }
+    });
   }
 
   @Override
   public void paint(Graphics2D graphics2D, MapView mapView, Bounds bounds) {
-
+    if (head != null) {
+      head.paint(graphics2D, mapView, bounds);
+    }
   }
 
   @Override
   public Icon getIcon() {
-    return null;
+    return MapGridPlugin.ICON24;
   }
 
   @Override
   public String getToolTipText() {
-    return null;
+    return "Mapgrid layer";
   }
 
   @Override
