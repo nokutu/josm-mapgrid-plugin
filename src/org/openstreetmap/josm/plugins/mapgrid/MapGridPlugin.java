@@ -1,8 +1,6 @@
 // License: GPL. For details, see LICENSE file.
 package org.openstreetmap.josm.plugins.mapgrid;
 
-import static org.openstreetmap.josm.tools.I18n.tr;
-
 import org.openstreetmap.josm.Main;
 import org.openstreetmap.josm.gui.MainMenu;
 import org.openstreetmap.josm.gui.MapFrame;
@@ -22,8 +20,14 @@ public class MapGridPlugin extends Plugin {
 
   public static final ImageIcon ICON24 = new ImageProvider("icon24.png").get();
 
-  private CreateGridAction createGridAction;
-  private JMenuItem createGridMenu;
+  private CreateGridManuallyAction createGridManuallyAction;
+  private JMenuItem createGridManuallyMenu;
+
+  private CreateGridAutomaticallyAction createGridAutomaticallyAction;
+  private JMenuItem createGridAutomaticallyMenu;
+
+  public SplitGridAction splitGridAction;
+  public JMenuItem splitGridMenu;
 
   /**
    * OS route separator
@@ -37,8 +41,14 @@ public class MapGridPlugin extends Plugin {
    */
   public MapGridPlugin(PluginInformation info) {
     super(info);
-    createGridAction = new CreateGridAction(this);
-    createGridMenu = MainMenu.add(Main.main.menu.viewMenu, createGridAction, false);
+    createGridManuallyAction = new CreateGridManuallyAction(this);
+    createGridManuallyMenu = MainMenu.add(Main.main.menu.viewMenu, createGridManuallyAction, false);
+
+    createGridAutomaticallyAction = new CreateGridAutomaticallyAction(this);
+    createGridAutomaticallyMenu = MainMenu.add(Main.main.menu.viewMenu, createGridAutomaticallyAction, false);
+
+    splitGridAction = new SplitGridAction();
+    splitGridMenu = MainMenu.add(Main.main.menu.viewMenu, splitGridAction, false);
   }
 
   /**
@@ -46,7 +56,13 @@ public class MapGridPlugin extends Plugin {
    */
   @Override
   public void mapFrameInitialized(MapFrame oldFrame, MapFrame newFrame) {
-    // TODO
+    if (oldFrame == null && newFrame != null) {
+      createGridManuallyMenu.setEnabled(true);
+      createGridAutomaticallyMenu.setEnabled(true);
+    } else if (oldFrame != null && newFrame == null) {
+      createGridManuallyMenu.setEnabled(false);
+      createGridAutomaticallyMenu.setEnabled(false);
+    }
   }
 
   @Override

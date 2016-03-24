@@ -62,7 +62,7 @@ sourceSets {
 
 eclipse {
   project {
-    name = 'JOSM-Mapillary'
+    name = 'JOSM-MapGrid'
     natures 'org.sonarlint.eclipse.core.sonarlintNature'
   }
 }
@@ -138,7 +138,7 @@ task installPlugin(type: Copy) {
  into "$buildDir/.josm/plugins"
  include 'apache*.jar'
  include "${project.name}.jar"
- rename "${project.name}.jar", 'Mapillary.jar'
+ rename "${project.name}.jar", 'MapGrid.jar'
  rename 'apache-(.*)-.*.jar', 'apache-$1.jar'
 }
 installPlugin.dependsOn jar

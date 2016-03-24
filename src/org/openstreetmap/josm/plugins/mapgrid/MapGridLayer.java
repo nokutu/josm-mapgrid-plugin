@@ -26,29 +26,77 @@ public class MapGridLayer extends Layer {
 
   private Grid head;
   private MapGridPlugin plugin;
+  private MouseManager mm;
+
+  private Grid selectedGrid;
 
   public MapGridLayer(MapGridPlugin plugin) {
     super(tr("MapGrid layer"));
     this.plugin = plugin;
+    mm = new MouseManager(this);
+    Main.map.mapView.addMouseListener(mm);
+    Main.map.mapView.addMouseMotionListener(mm);
+    plugin.splitGridAction.setLayer(this);
   }
 
-  public void createGrid() {
+  public void createManually() {
+    Main.map.mapView.setActiveLayer(this);
     Main.map.mapView.addMouseListener(new MouseAdapter() {
-
       LatLon from;
       LatLon to;
 
       @Override
       public void mouseClicked(MouseEvent e) {
+        if (!isActive()) {
+          return;
+        }
         if (from == null) {
           from = Main.map.mapView.getLatLon(e.getX(), e.getY());
         } else if (to == null) {
           to = Main.map.mapView.getLatLon(e.getX(), e.getY());
           head = new Grid(from, to);
           Main.map.mapView.removeMouseListener(this);
+          Main.map.mapView.removeMouseMotionListener(this);
+          Main.map.mapView.repaint();
         }
       }
     });
+  }
+
+  public Grid getHead() {
+    return head;
+  }
+
+  public void createAutomatically() {
+
+  }
+
+  public Grid getGrid(LatLon latLon) {
+    return head == null ? null : head.getGrid(latLon);
+  }
+
+  public boolean isActive() {
+    if (Main.map.mapView.getActiveLayer().equals(MapGridLayer.this)) {
+      return true;
+    }
+    return false;
+  }
+
+  public void setSelectedGrid(Grid grid) {
+    if (selectedGrid != null) {
+      selectedGrid.unselect();
+    }
+    selectedGrid = grid;
+    plugin.splitGridMenu.setEnabled(false);
+    if (grid != null) {
+      selectedGrid.select();
+      plugin.splitGridMenu.setEnabled(true);
+    }
+    Main.map.mapView.repaint();
+  }
+
+  public Grid getSelectedGrid() {
+    return selectedGrid;
   }
 
   @Override
@@ -91,5 +139,11 @@ public class MapGridLayer extends Layer {
   @Override
   public Action[] getMenuEntries() {
     return new Action[0];
+  }
+
+  @Override
+  public void destroy() {
+    super.destroy();
+    plugin.splitGridAction.removeLayer();
   }
 }
