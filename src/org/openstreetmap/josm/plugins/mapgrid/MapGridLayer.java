@@ -68,7 +68,7 @@ public class MapGridLayer extends Layer {
   }
 
   public void createAutomatically() {
-
+    // TODO
   }
 
   public Grid getGrid(LatLon latLon) {
