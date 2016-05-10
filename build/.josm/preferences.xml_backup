@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences xmlns='http://josm.openstreetmap.de/preferences-1.0' version='10171'>
+  <tag key='cache.capabilities1637351842' value='1462724318'/>
+  <tag key='coordinates' value='DECIMAL_DEGREES'/>
+  <list key='download.overpass.query'>
+    <entry value=''/>
+  </list>
+  <list key='download.overpass.wizard'>
+    <entry value=''/>
+  </list>
+  <list key='file-open.history'>
+    <entry value='/Data/Java/test-data/session.joz'/>
+    <entry value='/home/rafa/Documentos/darya/test-data/session.joz'/>
+  </list>
+  <tag key='gui.geometry' value='x=185,y=0,width=1000,height=737'/>
+  <tag key='gui.maximized' value='true'/>
+  <list key='imagery.layers.addedIds'>
+  </list>
+  <list key='imagery.layers.default'>
+  </list>
+  <tag key='josm.version' value='10171'/>
+  <tag key='language' value='en'/>
+  <tag key='lastDirectory' value='/Data/Java/test-data'/>
+  <tag key='mappaint.renderer-class-name' value='org.openstreetmap.josm.data.osm.visitor.paint.StyledMapRenderer'/>
+  <maps key='mappaint.style.entries'>
+    <map>
+      <tag key='title' value='JOSM por defecto (MapCSS)'/>
+      <tag key='active' value='true'/>
+      <tag key='ptoken' value='standard'/>
+      <tag key='url' value='resource://styles/standard/elemstyles.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Potlatch 2'/>
+      <tag key='active' value='false'/>
+      <tag key='ptoken' value='standard'/>
+      <tag key='url' value='resource://styles/standard/potlatch2.mapcss'/>
+    </map>
+  </maps>
+  <list key='mappaint.style.known-defaults'>
+    <entry value='resource://styles/standard/elemstyles.mapcss'/>
+    <entry value='resource://styles/standard/potlatch2.mapcss'/>
+  </list>
+  <tag key='org.openstreetmap.josm.actions.OverpassDownloadAction$OverpassDownloadDialog.geometry' value='x=185,y=68,width=1000,height=600'/>
+  <tag key='org.openstreetmap.josm.gui.download.DownloadDialog.geometry' value='x=183,y=72,width=1000,height=600'/>
+  <tag key='org.openstreetmap.josm.gui.preferences.PreferenceDialog.geometry' value='x=333,y=14,width=700,height=708'/>
+  <tag key='osm-download.bounds' value='52.5181011;13.4088135;52.5195635;13.4139633'/>
+  <list key='plugins'>
+    <entry value='MapGrid'/>
+  </list>
+  <list key='projection.sub'>
+  </list>
+  <list key='projection.sub.core:mercator'>
+  </list>
+  <tag key='propertiesdialog.minimized' value='true'/>
+  <tag key='proxy.policy' value='no-proxy'/>
+  <tag key='selectionlist.minimized' value='true'/>
+  <maps key='taggingpreset.entries'>
+    <map>
+      <tag key='title' value='Ajuste predeterminado interno'/>
+      <tag key='url' value='resource://data/defaultpresets.xml'/>
+    </map>
+  </maps>
+  <tag key='toggleDialogs.width' value='342'/>
+  <list key='toolbar'>
+    <entry value='open'/>
+    <entry value='save'/>
+    <entry value='download'/>
+    <entry value='upload'/>
+    <entry value='|'/>
+    <entry value='undo'/>
+    <entry value='redo'/>
+    <entry value='|'/>
+    <entry value='dialogs/search(searchExpression=)'/>
+    <entry value='preference'/>
+    <entry value='|'/>
+    <entry value='splitway'/>
+    <entry value='combineway'/>
+    <entry value='wayflip'/>
+    <entry value='|'/>
+    <entry value='imagery-offset'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Highways/Streets'/>
+    <entry value='tagginggroup_Highways/Ways'/>
+    <entry value='tagginggroup_Highways/Waypoints'/>
+    <entry value='tagginggroup_Highways/Barriers'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Transport/Car'/>
+    <entry value='tagginggroup_Transport/Public Transport'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Facilities/Tourism'/>
+    <entry value='tagginggroup_Facilities/Food+Drinks'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Man Made/Historic Places'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Man Made/Man Made'/>
+  </list>
+  <maps key='validator.org.openstreetmap.josm.data.validation.tests.MapCSSTagChecker.entries'>
+    <map>
+      <tag key='title' value='Direcciones'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/addresses.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Combinaciones de etiquetas'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/combinations.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Características en deshuso'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/deprecated.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Geometría'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/geometry.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Viales'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/highway.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Valores múltiples'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/multiple.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Valores numéricos'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/numeric.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Religión'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/religion.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Relaciones'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/relation.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Etiquetas innecesarias'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/unnecessary.mapcss'/>
+    </map>
+    <map>
+      <tag key='title' value='Wikipedia'/>
+      <tag key='active' value='true'/>
+      <tag key='url' value='resource://data/validator/wikipedia.mapcss'/>
+    </map>
+  </maps>
+  <list key='validator.skip'>
+  </list>
+  <list key='validator.skipBeforeUpload'>
+  </list>
+  <tag key='validator.visible' value='true'/>
+</preferences>

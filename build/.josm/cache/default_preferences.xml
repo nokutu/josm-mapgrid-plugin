@@ -1,0 +1,2523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences-defaults xmlns='http://josm.openstreetmap.de/preferences-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' version='10171'>
+  <tag key='audio.fastfwdmultiplier' time='1462907292' value='1.3'/>
+  <tag key='audio.menuinvisible' time='1462907292' value='false'/>
+  <tag key='autocomplete.dont_complete_numbers' time='1462312564' value='true'/>
+  <tag key='autosave.deletedLayersBackupCount' time='1462907296' value='5'/>
+  <tag key='autosave.enabled' time='1462907296' value='true'/>
+  <tag key='autosave.filesPerLayer' time='1462907387' value='1'/>
+  <tag key='autosave.index-limit' time='1462907296' value='1000'/>
+  <tag key='autosave.interval' time='1462907296' value='300'/>
+  <tag key='autosave.notification' time='1462907297' value='false'/>
+  <lists key='bookmarks' time='1462793576' xsi:nil='true'/>
+  <list key='browser.unix' time='1462109365'>
+    <entry value='xdg-open'/>
+    <entry value='#DESKTOP#'/>
+    <entry value='$BROWSER'/>
+    <entry value='gnome-open'/>
+    <entry value='kfmclient openURL'/>
+    <entry value='firefox'/>
+  </list>
+  <tag key='cache.capabilities1637351842' time='1462907292' value='0'/>
+  <tag key='cache.jcs.max_threads' time='1462906600' value='10'/>
+  <tag key='changeset-dialog.for-selected-objects-only' time='1462907301' value='false'/>
+  <tag key='changesetdialog.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='changesetdialog.docked' time='1462907301' value='true'/>
+  <tag key='changesetdialog.minimized' time='1462907301' value='false'/>
+  <tag key='changesetdialog.visible' time='1462907301' value='false'/>
+  <tag key='color.areatext' time='1462907303' value='#C0C0C0'/>
+  <tag key='color.background' time='1462907383' value='#000000'/>
+  <tag key='color.conflict' time='1462907383' value='#808080'/>
+  <tag key='color.conflict.background' time='1462874696' value='#FFFFFF'/>
+  <tag key='color.conflict.background.combined' time='1462874696' value='#D9FFD9'/>
+  <tag key='color.conflict.background.decided' time='1462874696' value='#D9FFD9'/>
+  <tag key='color.conflict.background.drop' time='1462874696' value='#FFFFFF'/>
+  <tag key='color.conflict.background.drop.tag' time='1462874696' value='#C0C0C0'/>
+  <tag key='color.conflict.background.empty.row' time='1462874696' value='#EAEAEA'/>
+  <tag key='color.conflict.background.frozen' time='1462874696' value='#EAEAEA'/>
+  <tag key='color.conflict.background.in.comparison' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.background.in.opposite' time='1462874696' value='#FFEAD5'/>
+  <tag key='color.conflict.background.keep' time='1462874696' value='#D9FFD9'/>
+  <tag key='color.conflict.background.keep.all.tags' time='1462874696' value='#FFEAD5'/>
+  <tag key='color.conflict.background.keep.member' time='1462874696' value='#D9FFD9'/>
+  <tag key='color.conflict.background.keep.one.tag' time='1462874696' value='#D9FFD9'/>
+  <tag key='color.conflict.background.no.conflict' time='1462874696' value='#EAEAEA'/>
+  <tag key='color.conflict.background.not.in.opposite' time='1462874696' value='#FFC5C5'/>
+  <tag key='color.conflict.background.remove.member' time='1462874696' value='#C0C0C0'/>
+  <tag key='color.conflict.background.same.position.in.opposite' time='1462874696' value='#D9FFD9'/>
+  <tag key='color.conflict.background.selected' time='1462874696' value='#8FAAFF'/>
+  <tag key='color.conflict.background.sum.all.numeric.tags' time='1462874696' value='#FFEAD5'/>
+  <tag key='color.conflict.background.undecided' time='1462874696' value='#FFC5C5'/>
+  <tag key='color.conflict.foreground' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.drop' time='1462874696' value='#C0C0C0'/>
+  <tag key='color.conflict.foreground.drop.tag' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.in.comparison' time='1462874696' value='#FFFFFF'/>
+  <tag key='color.conflict.foreground.keep' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.keep.all.tags' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.keep.member' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.keep.one.tag' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.remove.member' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.sum.all.numeric.tags' time='1462874696' value='#000000'/>
+  <tag key='color.conflict.foreground.undecided' time='1462874696' value='#000000'/>
+  <tag key='color.draw.angle.snap' time='1462907301' value='#FFC800'/>
+  <tag key='color.draw.angle.snap.highlight' time='1462907301' value='#FFC80080'/>
+  <tag key='color.extrude.helper.line' time='1462907301' value='#FFC800'/>
+  <tag key='color.extrude.main.line' time='1462470402' xsi:nil='true'/>
+  <tag key='color.gps.marker' time='1462874696' value='#FF00FF'/>
+  <tag key='color.gps.point' time='1462874696' value='#FF00FF'/>
+  <tag key='color.helper.line' time='1462470402' xsi:nil='true'/>
+  <tag key='color.highlight' time='1462907387' value='#FF0000'/>
+  <tag key='color.highlight.wireframe' time='1462874696' value='#FFC800'/>
+  <tag key='color.imagery.fade' time='1462907301' value='#FFFFFF'/>
+  <tag key='color.improve.way.accuracy.helper.line' time='1462470402' xsi:nil='true'/>
+  <tag key='color.inactive' time='1462907387' value='#404040'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.address' time='1462907293' value='#1C86EE'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.aerialway' time='1462907293' value='#663300'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.aeroway' time='1462907293' value='#660000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.aeroway.dark' time='1462907293' value='#330000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.aeroway.light' time='1462907293' value='#990000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.allotments' time='1462907293' value='#5DBF80'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.amenity' time='1462907293' value='#ECBA52'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.amenity.light' time='1462907293' value='#F7EFB7'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.amenity.traffic' time='1462907293' value='#F7EFB7'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.bare.rock' time='1462907293' value='#F8F8C7'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.barrier' time='1462907293' value='#F0F050'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.basin' time='1462907293' value='#0000BF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.beach' time='1462907293' value='#F8DBA2'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.bicycle' time='1462907293' value='#B100FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.boundary' time='1462907293' value='#FF6600'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.bridge' time='1462907293' value='#0000FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.brownfield' time='1462907293' value='#ECBA32'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.building' time='1462907293' value='#CB9999'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.buildingpart' time='1462907293' value='#DCBBBB'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.cemetery' time='1462907293' value='#B1EFC8'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.construction' time='1462907293' value='#FFFF00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.craft' time='1462907293' value='#999900'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.cutline' time='1462907293' value='#99FF55'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.destination' time='1462907293' value='#8080FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.dock' time='1462907293' value='#0000CF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.elevator' time='1462907293' value='#A6BACE'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.embankment' time='1462907293' value='#C14D00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.emergency' time='1462907293' value='#EEEEEE'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.emergency.access.point' time='1462907293' value='#C0C0C0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.farmland' time='1462907293' value='#B8E0B1'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.farmyard' time='1462907293' value='#F0F0F0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.ferry' time='1462907293' value='#809BC0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.foot' time='1462907293' value='#00FF00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.forest' time='1462907293' value='#B1EFC8'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.garages' time='1462907293' value='#D6C8AA'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.glacier' time='1462907293' value='#FFFFFF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf' time='1462907293' value='#C7F1A3'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf.bunker' time='1462907293' value='#FFAB00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf.driving.range' time='1462907293' value='#C7F1A3'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf.fairway' time='1462907293' value='#009A00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf.green' time='1462907293' value='#00E700'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf.hole' time='1462907293' value='#808080'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf.rough' time='1462907293' value='#006700'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.golf.water.hazard' time='1462907293' value='#0000FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.grass' time='1462907293' value='#97CA96'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.green' time='1462907293' value='#B1E0C2'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.greenfield' time='1462907293' value='#B1EC5C'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.health' time='1462907293' value='#EEEEEE'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.heath' time='1462907293' value='#FFFFC0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.highway.platform' time='1462907293' value='#C0C0C0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.highway.road' time='1462907293' value='#770000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.highway.track' time='1462907293' value='#6E541C'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.historic' time='1462907293' value='#663300'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.horse' time='1462907293' value='#A18559'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.hotel' time='1462907293' value='#FECED0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.industrial' time='1462907293' value='#ECD8FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.junction' time='1462907293' value='#C0C0C0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.landfill' time='1462907293' value='#663300'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.leisure' time='1462907293' value='#C7F1A3'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.leisuretrack' time='1462907293' value='#D4F4B9'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.light.water' time='1462907293' value='#00005F'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.livingdashed' time='1462907293' value='#00FF00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.manmade' time='1462907293' value='#D8D8D8'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.marina' time='1462907293' value='#0070CF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.marsh' time='1462907293' value='#4F4FF3'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.meadow' time='1462907293' value='#B1E0B6'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.military' time='1462907293' value='#B62C2C'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.motorroad' time='1462907293' value='#3377FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.motorway' time='1462907293' value='#809BC0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.mud' time='1462907293' value='#CBA762'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.natural' time='1462907293' value='#002F00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.no' time='1462907293' value='#FF8080'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.node.connection' time='1462907293' value='#FFFF00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.node.selected' time='1462907293' value='#FF0000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.node.standard' time='1462907293' value='#FFFF00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.node.tagged' time='1462907293' value='#00FFFF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.office' time='1462907293' value='#DE5696'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.oldrail' time='1462907293' value='#404040'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.otherrail' time='1462907293' value='#808080'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.permissive' time='1462907293' value='#80FF80'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.pier' time='1462907293' value='#660000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.pipeline' time='1462907293' value='#660000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.piste.advanced' time='1462907293' value='#606060'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.piste.easy' time='1462907293' value='#0000FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.piste.expert' time='1462907293' value='#606060'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.piste.freeride' time='1462907293' value='#FFFF00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.piste.intermediate' time='1462907293' value='#FF0000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.piste.novice' time='1462907293' value='#00FF00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.pitch' time='1462907293' value='#BAEE8D'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.place' time='1462907293' value='#8DE3CB'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.power' time='1462907293' value='#EEEEEE'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.primary' time='1462907293' value='#FB805F'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.private' time='1462907293' value='#FF8080'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.quarry' time='1462907293' value='#888888'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.raceway' time='1462907293' value='#FF80FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.rail' time='1462907293' value='#404040'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.raildashed' time='1462907293' value='#FFFFFF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.railland' time='1462907293' value='#888888'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.railover' time='1462907293' value='#202020'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.railwaypoint' time='1462907293' value='#F7EFB7'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.railyard' time='1462907293' value='#552200'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.religious' time='1462907293' value='#FFD454'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.residential' time='1462907293' value='#F0F0F0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.retail' time='1462907293' value='#FFC4EE'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.riverbank' time='1462907293' value='#0000CF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.sand' time='1462907293' value='#F8DBA2'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.scrub' time='1462907293' value='#007000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.secondary' time='1462907293' value='#FDBF6F'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.service' time='1462907293' value='#809BC0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.services' time='1462907293' value='#C0C0C0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.shop' time='1462907293' value='#00005F'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.ski' time='1462907293' value='#809BC0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.sport' time='1462907293' value='#BDE3CB'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.stone' time='1462907293' value='#F8F8C7'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.stream' time='1462907293' value='#6600CC'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.street' time='1462907293' value='#C0C0C0'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.subway' time='1462907293' value='#606060'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.swimming.pool' time='1462907293' value='#51C4EF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.terminal' time='1462907293' value='#BB0000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.tertiary' time='1462907293' value='#F7F496'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.tiger.data' time='1462907293' value='#808000'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.tourism' time='1462907293' value='#E180A2'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.trunk' time='1462907293' value='#7FC97F'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.tunnel' time='1462907293' value='#964B00'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.water' time='1462907293' value='#0000FF'/>
+  <tag key='color.mappaint.josm.por.defecto.mapcss.woodarea' time='1462907293' value='#008000'/>
+  <tag key='color.node.connection' time='1462907387' value='#FFFF00'/>
+  <tag key='color.node.standard' time='1462907387' value='#FFFF00'/>
+  <tag key='color.node.tagged' time='1462907387' value='#CCFFFF'/>
+  <tag key='color.outside.downloaded.area' time='1462907301' value='#FFFF00'/>
+  <tag key='color.relation' time='1462874696' value='#008080'/>
+  <tag key='color.relation.selected' time='1462907387' value='#FF00FF'/>
+  <tag key='color.scale' time='1462907383' value='#FFFFFF'/>
+  <tag key='color.selected' time='1462907387' value='#FF0000'/>
+  <tag key='color.status.bar.background' time='1462907301' value='#B8CFE5'/>
+  <tag key='color.status.bar.background.active' time='1462907301' value='#AAFF5E'/>
+  <tag key='color.status.bar.foreground' time='1462907301' value='#000000'/>
+  <tag key='color.status.bar.foreground.active' time='1462907301' value='#000000'/>
+  <tag key='color.text' time='1462907303' value='#FFFFFF'/>
+  <tag key='color.untagged' time='1462907303' value='#808080'/>
+  <tag key='color.untagged.way' time='1462874696' value='#008000'/>
+  <tag key='color.validation.error' time='1462874696' value='#FF0000'/>
+  <tag key='color.validation.other' time='1462874696' value='#00FFFF'/>
+  <tag key='color.validation.warning' time='1462874696' value='#FFFF00'/>
+  <tag key='color.way' time='1462874696' value='#000080'/>
+  <tag key='commandstack.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='commandstack.docked' time='1462907301' value='true'/>
+  <tag key='commandstack.minimized' time='1462907301' value='false'/>
+  <tag key='commandstack.visible' time='1462907301' value='false'/>
+  <tag key='conflict.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='conflict.docked' time='1462907301' value='true'/>
+  <tag key='conflict.minimized' time='1462907301' value='false'/>
+  <tag key='conflict.visible' time='1462907301' value='false'/>
+  <tag key='coordinates' time='1462108905' xsi:nil='true'/>
+  <tag key='debug.advanced-keypress-detector.enable' time='1462907301' value='true'/>
+  <tag key='debug.checkDeleteReferenced' time='1462907301' value='true'/>
+  <tag key='debug.checkNullCoor' time='1462907303' value='true'/>
+  <tag key='debug.edt-checker.enable' time='1462907296' value='false'/>
+  <tag key='dialog.align.left' time='1462907301' value='false'/>
+  <tag key='dialog.dynamic.buttons' time='1462907301' value='false'/>
+  <tag key='dialog.layer.colorname' time='1462907384' value='true'/>
+  <tag key='display.discardable-keys' time='1462907387' value='false'/>
+  <tag key='download.autorun' time='1462907296' value='false'/>
+  <tag key='download.gps' time='1462906600' value='false'/>
+  <tag key='download.newlayer' time='1462906600' value='false'/>
+  <tag key='download.notes' time='1462906600' value='false'/>
+  <tag key='download.osm' time='1462906600' value='true'/>
+  <tag key='download.overpass.for-multi-fetch' time='1462874696' value='false'/>
+  <tag key='download.overpass.server' time='1462874696' value='http://overpass-api.de/api/'/>
+  <list key='download.overpass.servers' time='1462874696'>
+    <entry value='http://overpass-api.de/api/'/>
+    <entry value='http://overpass.osm.rambler.ru/cgi/'/>
+  </list>
+  <list key='download.places.history' time='1462906600'>
+  </list>
+  <tag key='download.tab' time='1462906600' value='0'/>
+  <tag key='downloadchangeset.autopaste' time='1462829966' value='true'/>
+  <list key='draw.anglesnap.angles' time='1462907301'>
+    <entry value='0'/>
+    <entry value='30'/>
+    <entry value='45'/>
+    <entry value='60'/>
+    <entry value='90'/>
+    <entry value='120'/>
+    <entry value='135'/>
+    <entry value='150'/>
+    <entry value='180'/>
+  </list>
+  <tag key='draw.anglesnap.drawConstructionGeometry' time='1462907301' value='true'/>
+  <tag key='draw.anglesnap.drawProjectedPoint' time='1462907301' value='true'/>
+  <tag key='draw.anglesnap.projectionsnap' time='1462907301' value='true'/>
+  <tag key='draw.anglesnap.projectionsnapgvff' time='1462907301' value='true'/>
+  <tag key='draw.anglesnap.showAngle' time='1462907301' value='true'/>
+  <tag key='draw.anglesnap.stroke.helper' time='1462907301' value='1 4'/>
+  <tag key='draw.anglesnap.stroke.highlight' time='1462907301' value='10'/>
+  <tag key='draw.anglesnap.toggleOnRepeatedA' time='1462907301' value='true'/>
+  <tag key='draw.anglesnap.tolerance' time='1462907301' value='5.0'/>
+  <tag key='draw.area.extent_threshold' time='1462470404' xsi:nil='true'/>
+  <tag key='draw.data.area_outline_only' time='1462907387' value='false'/>
+  <tag key='draw.data.downloaded_area' time='1462907347' value='true'/>
+  <tag key='draw.data.inactive_color' time='1462907383' value='true'/>
+  <tag key='draw.dialogspanel' time='1462907292' value='true'/>
+  <tag key='draw.fullscreen' time='1462907292' value='false'/>
+  <tag key='draw.fullscreen.exclusive-mode' time='1462108987' value='auto'/>
+  <tag key='draw.helper-line' time='1462907301' value='true'/>
+  <tag key='draw.oneway' time='1462907387' value='true'/>
+  <tag key='draw.rawgps.alternatedirection' time='1462874696' value='false'/>
+  <tag key='draw.rawgps.colorTracksTune' time='1462874696' value='45'/>
+  <tag key='draw.rawgps.colorTracksTune.null' time='1462108928' xsi:nil='true'/>
+  <tag key='draw.rawgps.colors' time='1462874696' value='0'/>
+  <tag key='draw.rawgps.colors.dynamic' time='1462874696' value='false'/>
+  <tag key='draw.rawgps.colors.null' time='1462108928' xsi:nil='true'/>
+  <tag key='draw.rawgps.direction' time='1462874696' value='false'/>
+  <tag key='draw.rawgps.hdopcircle' time='1462874696' value='false'/>
+  <tag key='draw.rawgps.large' time='1462874696' value='false'/>
+  <tag key='draw.rawgps.layer.audiowpt.pattern' time='1462874696' value='?{ &apos;{name}&apos; | &apos;{desc}&apos; | &apos;{formattedWaypointOffset}&apos; }'/>
+  <tag key='draw.rawgps.layer.wpt' time='1462874696' value='0'/>
+  <tag key='draw.rawgps.layer.wpt.pattern' time='1462874696' value='?{ &apos;{name} ({desc})&apos; | &apos;{name} ({cmt})&apos; | &apos;{name}&apos; | &apos;{desc}&apos; | &apos;{cmt}&apos; }'/>
+  <tag key='draw.rawgps.lines' time='1462874696' value='true'/>
+  <tag key='draw.rawgps.lines.force' time='1462874696' value='false'/>
+  <tag key='draw.rawgps.lines.local' time='1462874696' value='true'/>
+  <tag key='draw.rawgps.linewidth' time='1462874696' value='0'/>
+  <tag key='draw.rawgps.linewidth.null' time='1462108928' xsi:nil='true'/>
+  <tag key='draw.rawgps.max-line-length' time='1462874696' value='200'/>
+  <tag key='draw.rawgps.max-line-length.local' time='1462874696' value='-1'/>
+  <tag key='draw.rawgps.max-line-length.local.null' time='1462108928' xsi:nil='true'/>
+  <tag key='draw.rawgps.max-line-length.null' time='1462108928' xsi:nil='true'/>
+  <tag key='draw.rawgps.min-arrow-distance' time='1462874696' value='40'/>
+  <tag key='draw.rawgps.min-arrow-distance.null' time='1462108928' xsi:nil='true'/>
+  <tag key='draw.segment.direction' time='1462907387' value='false'/>
+  <tag key='draw.segment.head_only' time='1462907387' value='false'/>
+  <tag key='draw.segment.order_number' time='1462907387' value='false'/>
+  <tag key='draw.splashscreen' time='1462907291' value='true'/>
+  <tag key='draw.stroke.helper-line' time='1462907301' value='3'/>
+  <tag key='draw.target-highlight' time='1462907387' value='true'/>
+  <tag key='edit.initial-move-delay' time='1462907387' value='200'/>
+  <tag key='edit.initial-move-threshold' time='1462907387' value='5'/>
+  <tag key='edit.make-parallel-way-action.add-to-selection-modifier-combo' time='1462907301' value='aSc'/>
+  <tag key='edit.make-parallel-way-action.copy-tags-default' time='1462907301' value='true'/>
+  <tag key='edit.make-parallel-way-action.copy-tags-modifier-combo' time='1462907301' value='As?'/>
+  <tag key='edit.make-parallel-way-action.initial-move-delay' time='1462907301' value='200'/>
+  <tag key='edit.make-parallel-way-action.set-selection-modifier-combo' time='1462907301' value='asc'/>
+  <tag key='edit.make-parallel-way-action.snap-default' time='1462907301' value='true'/>
+  <tag key='edit.make-parallel-way-action.snap-distance-chinese' time='1462907301' value='1.0'/>
+  <tag key='edit.make-parallel-way-action.snap-distance-imperial' time='1462907301' value='1.0'/>
+  <tag key='edit.make-parallel-way-action.snap-distance-metric' time='1462907301' value='0.5'/>
+  <tag key='edit.make-parallel-way-action.snap-distance-nautical' time='1462907301' value='0.1'/>
+  <tag key='edit.make-parallel-way-action.snap-modifier-combo' time='1462907301' value='?sC'/>
+  <tag key='edit.make-parallel-way-action.snap-threshold-percent' time='1462907301' value='0.7'/>
+  <tag key='edit.make-parallel-way-action.toggle-selection-modifier-combo' time='1462907301' value='asC'/>
+  <tag key='edit.snap-intersection-threshold' time='1462907301' value='10'/>
+  <tag key='expert' time='1462907292' value='false'/>
+  <tag key='extrude.angle-symbol-radius' time='1462907301' value='8.0'/>
+  <tag key='extrude.ctrl.stroke.old-line' time='1462907301' value='1'/>
+  <tag key='extrude.drag-nodes-without-ctrl' time='1462907301' value='false'/>
+  <tag key='extrude.dualalign.keep-segment-direction' time='1462907301' value='true'/>
+  <tag key='extrude.dualalign.toggleOnRepeatedX' time='1462907301' value='true'/>
+  <tag key='extrude.ignore-shared-nodes' time='1462907301' value='true'/>
+  <tag key='extrude.initial-move-threshold' time='1462907301' value='1'/>
+  <tag key='extrude.stroke.helper-line' time='1462907301' value='1 4'/>
+  <tag key='extrude.stroke.main' time='1462907301' value='3'/>
+  <list key='file-open.history' time='1462109759' xsi:nil='true'/>
+  <tag key='file-open.history.max-size' time='1462907299' value='15'/>
+  <tag key='filter.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='filter.docked' time='1462907301' value='true'/>
+  <tag key='filter.minimized' time='1462907301' value='false'/>
+  <tag key='filter.visible' time='1462907301' value='false'/>
+  <maps key='filters.entries' time='1462470403' xsi:nil='true'/>
+  <tag key='glyph-bug' time='1462902335' value='auto'/>
+  <tag key='gui.geometry' time='1462108905' xsi:nil='true'/>
+  <tag key='gui.maximized' time='1462907296' value='false'/>
+  <tag key='help.baseurl' time='1462907291' value='https://josm.openstreetmap.de'/>
+  <tag key='help.displaymotd' time='1462907291' value='true'/>
+  <tag key='iconsize.cursor' time='1462907292' value='32'/>
+  <tag key='iconsize.default' time='1462907292' value='24'/>
+  <tag key='iconsize.largeicon' time='1462907292' value='24'/>
+  <tag key='iconsize.layer' time='1462907292' value='16'/>
+  <tag key='iconsize.map' time='1462907292' value='16'/>
+  <tag key='iconsize.mapmax' time='1462907292' value='48'/>
+  <tag key='iconsize.sidebutton' time='1462907292' value='20'/>
+  <tag key='iconsize.smallicon' time='1462907292' value='16'/>
+  <tag key='imagery.cache.max_disk_size' time='1462907301' value='512'/>
+  <maps key='imagery.entries' time='1462108910' xsi:nil='true'/>
+  <tag key='imagery.fade_amount' time='1462907301' value='0'/>
+  <tag key='imagery.generic.default_autoload' time='1462907301' value='true'/>
+  <tag key='imagery.generic.default_autozoom' time='1462907301' value='true'/>
+  <tag key='imagery.generic.default_showerrors' time='1462907301' value='true'/>
+  <tag key='imagery.generic.loader.cachedir' time='1462907301' value='/home/darya/Documents/workspace/JOSM-MapGrid/build/.josm/cache/tiles'/>
+  <tag key='imagery.generic.max_zoom_lvl' time='1462907301' value='20'/>
+  <tag key='imagery.generic.maximum_expires' time='1462906600' value='2592000000'/>
+  <tag key='imagery.generic.min_zoom_lvl' time='1462907301' value='2'/>
+  <tag key='imagery.generic.minimum_expires' time='1462906600' value='3600000'/>
+  <tag key='imagery.generic.zoom_offset' time='1462907301' value='0'/>
+  <list key='imagery.layers.addedIds' time='1462108910' xsi:nil='true'/>
+  <list key='imagery.layers.default' time='1462108910' xsi:nil='true'/>
+  <list key='imagery.layers.sites' time='1462907292'>
+    <entry value='https://josm.openstreetmap.de/maps'/>
+  </list>
+  <lists key='imagery.offsets' time='1462907292'>
+  </lists>
+  <tag key='imagery.sharpen_level' time='1462907301' value='0'/>
+  <tag key='imagery.tms.add_to_slippymap_chooser' time='1462907301' value='true'/>
+  <tag key='imagery.tms.max_zoom_lvl' time='1462907301' value='20'/>
+  <tag key='imagery.tms.min_zoom_lvl' time='1462907301' value='2'/>
+  <tag key='imagery.tms.tmsloader.maxjobs' time='1462907301' value='25'/>
+  <tag key='imagery.tms.tmsloader.maxjobsperhost' time='1462907301' value='6'/>
+  <tag key='imagery.wms.default_autozoom' time='1462108957' value='true'/>
+  <tag key='imagery.wms.imageSize' time='1462108957' value='512'/>
+  <tag key='imagery.wmts.default_autozoom' time='1462108957' value='true'/>
+  <tag key='improvewayaccuracy.dot-size' time='1462907301' value='6'/>
+  <tag key='improvewayaccuracy.stroke.add-node' time='1462907301' value='1'/>
+  <tag key='improvewayaccuracy.stroke.delete-node' time='1462907301' value='1'/>
+  <tag key='improvewayaccuracy.stroke.move-node' time='1462907301' value='1 6'/>
+  <tag key='improvewayaccuracy.stroke.move-node-intersecting' time='1462907301' value='1 2 6'/>
+  <tag key='improvewayaccuracy.stroke.select-target' time='1462907301' value='2'/>
+  <tag key='iso.dates' time='1462907301' value='false'/>
+  <tag key='jcs.cache.max_objects_in_memory' time='1462907301' value='1000'/>
+  <tag key='jdk.Arrays.useLegacyMergeSort' time='1462907387' value='true'/>
+  <tag key='jdk.tls.disableSNIExtension' time='1462907387' value='false'/>
+  <tag key='josm.url' time='1462907292' value='https://josm.openstreetmap.de'/>
+  <tag key='laf' time='1462907291' value='javax.swing.plaf.metal.MetalLookAndFeel'/>
+  <tag key='language' time='1462108899' xsi:nil='true'/>
+  <tag key='lastDirectory' time='1462470396' xsi:nil='true'/>
+  <tag key='latlon.dm.decimal-format' time='1462907291' value='00.000'/>
+  <tag key='latlon.dms.decimal-format' time='1462907291' value='00.0'/>
+  <tag key='layerlist.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='layerlist.docked' time='1462907301' value='true'/>
+  <tag key='layerlist.minimized' time='1462907301' value='false'/>
+  <tag key='layerlist.visible' time='1462907301' value='true'/>
+  <tag key='mappaint.StyledMapRenderer.style_creation.numberOfThreads' time='1462907292' value='4'/>
+  <tag key='mappaint.auto_reload_local_styles' time='1462907294' value='true'/>
+  <tag key='mappaint.fillalpha' time='1462907303' value='50'/>
+  <tag key='mappaint.fillareas' time='1462907383' value='10000000'/>
+  <tag key='mappaint.font' time='1462907383' value='Droid Sans'/>
+  <tag key='mappaint.fontsize' time='1462907383' value='8'/>
+  <tag key='mappaint.gpx.use-antialiasing' time='1462874696' value='false'/>
+  <tag key='mappaint.highlight.bigger-increment' time='1462907383' value='5'/>
+  <tag key='mappaint.highlight.radius' time='1462907383' value='7'/>
+  <tag key='mappaint.highlight.step' time='1462907383' value='4'/>
+  <tag key='mappaint.highlight.width' time='1462907383' value='4'/>
+  <tag key='mappaint.icon-image-alpha' time='1462907303' value='255'/>
+  <tag key='mappaint.icon.enable-defaults' time='1462907305' value='true'/>
+  <list key='mappaint.icon.sources' time='1462108910' xsi:nil='true'/>
+  <tag key='mappaint.lefthandtraffic' time='1462907383' value='false'/>
+  <tag key='mappaint.multipolygon' time='1462907383' value='true'/>
+  <list key='mappaint.multipolygon.inner.role-prefixes' time='1462470404' xsi:nil='true'/>
+  <list key='mappaint.multipolygon.inner.roles' time='1462470404' xsi:nil='true'/>
+  <list key='mappaint.multipolygon.outer.role-prefixes' time='1462470404' xsi:nil='true'/>
+  <list key='mappaint.multipolygon.outer.roles' time='1462470404' xsi:nil='true'/>
+  <list key='mappaint.nameComplementOrder' time='1462907302'>
+    <entry value='capacity'/>
+  </list>
+  <list key='mappaint.nameOrder' time='1462907302'>
+    <entry value='name:en'/>
+    <entry value='name'/>
+    <entry value='int_name'/>
+    <entry value='distance'/>
+    <entry value='ref'/>
+    <entry value='operator'/>
+    <entry value='brand'/>
+    <entry value='addr:housenumber'/>
+  </list>
+  <tag key='mappaint.node.connection-size' time='1462907387' value='5'/>
+  <tag key='mappaint.node.fill-connection' time='1462907387' value='false'/>
+  <tag key='mappaint.node.fill-selected' time='1462907387' value='true'/>
+  <tag key='mappaint.node.fill-tagged' time='1462907387' value='true'/>
+  <tag key='mappaint.node.fill-unselected' time='1462907387' value='false'/>
+  <tag key='mappaint.node.selected-size' time='1462907387' value='5'/>
+  <tag key='mappaint.node.snap-distance' time='1462907384' value='10'/>
+  <tag key='mappaint.node.tagged-size' time='1462907387' value='3'/>
+  <tag key='mappaint.node.unselected-size' time='1462907387' value='3'/>
+  <tag key='mappaint.node.virtual-size' time='1462907387' value='8'/>
+  <tag key='mappaint.node.virtual-snap-distance' time='1462907387' value='8'/>
+  <tag key='mappaint.node.virtual-space' time='1462907387' value='70'/>
+  <tag key='mappaint.render.benchmark' time='1462907383' value='false'/>
+  <tag key='mappaint.renderer-class-name' time='1462108906' xsi:nil='true'/>
+  <tag key='mappaint.restriction' time='1462907383' value='true'/>
+  <tag key='mappaint.segment.default-width' time='1462907387' value='2'/>
+  <tag key='mappaint.segment.snap-distance' time='1462907384' value='10'/>
+  <tag key='mappaint.segmentnumber.space' time='1462907383' value='40'/>
+  <tag key='mappaint.select.toggle-lasso-on-repeated-S' time='1462907387' value='true'/>
+  <tag key='mappaint.select.waits-for-mouse-up' time='1462907387' value='false'/>
+  <tag key='mappaint.showicons' time='1462907387' value='10000000'/>
+  <tag key='mappaint.shownames' time='1462907387' value='10000000'/>
+  <tag key='mappaint.strokes' time='1462907387' value='10000000'/>
+  <maps key='mappaint.style.entries' time='1462108908' xsi:nil='true'/>
+  <list key='mappaint.style.known-defaults' time='1462108908' xsi:nil='true'/>
+  <tag key='mappaint.text-antialiasing' time='1462907383' value='default'/>
+  <tag key='mappaint.use-antialiasing' time='1462907383' value='true'/>
+  <tag key='mappaint.useRealWidth' time='1462907387' value='false'/>
+  <tag key='mappaint.wireframe.use-antialiasing' time='1462874696' value='false'/>
+  <tag key='mapstyle.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='mapstyle.docked' time='1462907301' value='true'/>
+  <tag key='mapstyle.minimized' time='1462907301' value='false'/>
+  <tag key='mapstyle.visible' time='1462907301' value='false'/>
+  <tag key='marker.makeautomarkers' time='1462874696' value='true'/>
+  <tag key='message.' time='1462896514' value='true'/>
+  <tag key='message.notifier.enabled' time='1462907296' value='true'/>
+  <tag key='message.notifier.interval' time='1462907296' value='5'/>
+  <tag key='minimap.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='minimap.docked' time='1462907301' value='true'/>
+  <tag key='minimap.minimized' time='1462907301' value='false'/>
+  <tag key='minimap.visible' time='1462907301' value='false'/>
+  <list key='mirror.https://josm.openstreetmap.de/maps' time='1462108910' xsi:nil='true'/>
+  <list key='mirror.https://josm.openstreetmap.de/styles' time='1462109336' xsi:nil='true'/>
+  <tag key='modeless' time='1462902244' value='false'/>
+  <tag key='multipolygon.deprecated.outerstyle' time='1462907302' value='true'/>
+  <tag key='namefinder.server' time='1462906600' value='Nominatim'/>
+  <tag key='notes/note_open.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='notes/note_open.docked' time='1462907301' value='true'/>
+  <tag key='notes/note_open.minimized' time='1462907301' value='false'/>
+  <tag key='notes/note_open.visible' time='1462907301' value='false'/>
+  <tag key='oauth.access-token.key' time='1462108903' xsi:nil='true'/>
+  <tag key='oauth.access-token.save-to-preferences' time='1462907290' value='true'/>
+  <tag key='oauth.access-token.secret' time='1462108903' xsi:nil='true'/>
+  <tag key='oauth.settings.use-default' time='1462312564' value='true'/>
+  <tag key='org.openstreetmap.josm.gui.dialogs.changeset.ChangesetCacheManager.geometry' time='1462829964' xsi:nil='true'/>
+  <tag key='org.openstreetmap.josm.gui.download.DownloadDialog.geometry' time='1462793576' xsi:nil='true'/>
+  <tag key='org.openstreetmap.josm.gui.preferences.PreferenceDialog.geometry' time='1462108929' xsi:nil='true'/>
+  <tag key='osm-download.bounds' time='1462470402' xsi:nil='true'/>
+  <tag key='osm-primitives.localize-name' time='1462907384' value='true'/>
+  <tag key='osm-primitives.showid' time='1462874696' value='false'/>
+  <tag key='osm-server.auth-method' time='1462907296' value='oauth'/>
+  <tag key='osm-server.max-request-area' time='1462906600' value='0.25'/>
+  <tag key='osm-server.password' time='1462108913' xsi:nil='true'/>
+  <tag key='osm-server.url' time='1462907296' value='https://api.openstreetmap.org/api'/>
+  <list key='osm-server.url-history' time='1462874696'>
+    <entry value='http://api06.dev.openstreetmap.org/api'/>
+    <entry value='http://master.apis.dev.openstreetmap.org/api'/>
+  </list>
+  <tag key='osm-server.username' time='1462108913' xsi:nil='true'/>
+  <tag key='osm.notes.daysClosed' time='1462312564' value='7'/>
+  <tag key='osm.notes.downloadLimit' time='1462312564' value='1000'/>
+  <tag key='osm.url' time='1462906600' value='https://www.openstreetmap.org'/>
+  <list key='overlapping-ways.ignored-keys' time='1462907292'>
+    <entry value='barrier'/>
+    <entry value='building'/>
+    <entry value='historic:building'/>
+    <entry value='man_made'/>
+  </list>
+  <list key='pluginmanager.sites' time='1462907291'>
+    <entry value='https://josm.openstreetmap.de/pluginicons%&lt;?plugins=&gt;'/>
+  </list>
+  <tag key='pluginmanager.time-based-update.interval' time='1462874699' value='30'/>
+  <tag key='pluginmanager.time-based-update.policy' time='1462874699' value='ask'/>
+  <tag key='pluginmanager.version-based-update.policy' time='1462874699' value='ask'/>
+  <tag key='pluginmanager.warntime' time='1462108931' xsi:nil='true'/>
+  <list key='plugins' time='1462907291'>
+  </list>
+  <tag key='prefer.ipv6' time='1462907387' value='auto'/>
+  <tag key='progressdialog.size' time='1462907299' value='600'/>
+  <tag key='projection' time='1462907291' value='core:mercator'/>
+  <list key='projection.sub' time='1462108905' xsi:nil='true'/>
+  <list key='projection.sub.core:belgianLambert1972' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:belgianLambert2008' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:code' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:custom' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:dutchrd' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:gauss-krueger' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:lambert' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:lambert93' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:lambertcc9' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:lambertest' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:mercator' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:puwg' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:sweref99' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:swissgrid' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:tmerclv' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:utm' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:utmfrancedom' time='1462109335' xsi:nil='true'/>
+  <list key='projection.sub.core:wgs84' time='1462109335' xsi:nil='true'/>
+  <tag key='properties.fix-tag-combobox-locale' time='1462907301' value='false'/>
+  <tag key='properties.last-closed-relations-size' time='1462907301' value='20'/>
+  <tag key='properties.menu.add_edit_delete' time='1462907301' value='true'/>
+  <tag key='properties.presets.top' time='1462907301' value='true'/>
+  <list key='properties.recent-tags' time='1462907301'>
+  </list>
+  <tag key='properties.recent-tags.ignore' time='1462907301' value=''/>
+  <tag key='properties.recently-added-tags' time='1462907301' value='5'/>
+  <tag key='properties.recently-added-tags-existing-key' time='1462907301' value='DISABLE'/>
+  <tag key='properties.refresh-recently-added-tags' time='1462907301' value='STATUS'/>
+  <tag key='properties.remember-recently-added-tags' time='1462907387' value='true'/>
+  <tag key='propertiesdialog.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='propertiesdialog.docked' time='1462907301' value='true'/>
+  <tag key='propertiesdialog.minimized' time='1462907301' value='false'/>
+  <tag key='propertiesdialog.visible' time='1462907301' value='true'/>
+  <list key='proxy.exceptions' time='1462907290'>
+    <entry value='localhost'/>
+    <entry value='127.0.0.1'/>
+    <entry value='::1'/>
+  </list>
+  <tag key='proxy.host' time='1462109352' xsi:nil='true'/>
+  <tag key='proxy.http.host' time='1462312564' value=''/>
+  <tag key='proxy.http.port' time='1462312564' value=''/>
+  <tag key='proxy.pass' time='1462109352' xsi:nil='true'/>
+  <tag key='proxy.policy' time='1462108903' xsi:nil='true'/>
+  <tag key='proxy.port' time='1462109352' xsi:nil='true'/>
+  <tag key='proxy.socks.host' time='1462312564' value=''/>
+  <tag key='proxy.socks.port' time='1462312564' value=''/>
+  <tag key='proxy.user' time='1462109352' xsi:nil='true'/>
+  <list key='relation.nameOrder' time='1462907305'>
+    <entry value='name'/>
+    <entry value='ref'/>
+    <entry value='restriction'/>
+    <entry value='landuse'/>
+    <entry value='natural'/>
+    <entry value='public_transport'/>
+    <entry value=':LocationCode'/>
+    <entry value='note'/>
+    <entry value='?building'/>
+  </list>
+  <tag key='relationlist.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='relationlist.docked' time='1462907301' value='true'/>
+  <tag key='relationlist.minimized' time='1462907301' value='false'/>
+  <tag key='relationlist.visible' time='1462907301' value='true'/>
+  <tag key='remotecontrol.enabled' time='1462907296' value='false'/>
+  <tag key='remotecontrol.https.enabled' time='1462907296' value='false'/>
+  <tag key='remotecontrol.permission.change-selection' time='1462874696' value='true'/>
+  <tag key='remotecontrol.permission.change-viewport' time='1462874696' value='true'/>
+  <tag key='remotecontrol.permission.create-objects' time='1462874696' value='true'/>
+  <tag key='remotecontrol.permission.imagery' time='1462874696' value='true'/>
+  <tag key='remotecontrol.permission.import' time='1462874696' value='true'/>
+  <tag key='remotecontrol.permission.load-data' time='1462874696' value='true'/>
+  <tag key='remotecontrol.permission.open-files' time='1462874696' value='false'/>
+  <tag key='remotecontrol.permission.read-protocolversion' time='1462874696' value='true'/>
+  <tag key='resource://styles/standard/elemstyles.mapcss:boolean:alt_turn_icons' time='1462108909' xsi:nil='true'/>
+  <tag key='resource://styles/standard/elemstyles.mapcss:boolean:hide_icons' time='1462108909' xsi:nil='true'/>
+  <tag key='resource://styles/standard/elemstyles.mapcss:boolean:highway_labels' time='1462108909' xsi:nil='true'/>
+  <tag key='resource://styles/standard/elemstyles.mapcss:boolean:partial_fill' time='1462108909' xsi:nil='true'/>
+  <tag key='resource://styles/standard/elemstyles.mapcss:boolean:place_fill_colour' time='1462108909' xsi:nil='true'/>
+  <tag key='resource://styles/standard/elemstyles.mapcss:boolean:shrink_nodes' time='1462108909' xsi:nil='true'/>
+  <tag key='save.extension.gpx' time='1462907292' value='gpx'/>
+  <tag key='save.extension.osm' time='1462907301' value='osm'/>
+  <tag key='save.keepbackup' time='1462874696' value='false'/>
+  <list key='search.history' time='1462907292'>
+  </list>
+  <tag key='search.history-size' time='1462906600' value='15'/>
+  <tag key='select.history-size' time='1462741346' value='10'/>
+  <tag key='selectaction.cycles.multiple.matches' time='1462907387' value='false'/>
+  <tag key='selection.fast_sort_above' time='1462907301' value='10000'/>
+  <tag key='selection.max-ways-for-statusline' time='1462907301' value='250'/>
+  <tag key='selection.no_sort_above' time='1462907301' value='100000'/>
+  <tag key='selectionlist.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='selectionlist.docked' time='1462907301' value='true'/>
+  <tag key='selectionlist.minimized' time='1462907301' value='false'/>
+  <tag key='selectionlist.visible' time='1462907301' value='true'/>
+  <list key='shortcut.entry.MapGrid Automatic' time='1462907296'>
+    <entry value='Create grid automatically'/>
+    <entry value='46'/>
+    <entry value='5005'/>
+    <entry value='46'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.MapGrid Manual' time='1462907296'>
+    <entry value='Create grid manually '/>
+    <entry value='44'/>
+    <entry value='5005'/>
+    <entry value='44'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.MapGrid Mark' time='1462896937'>
+    <entry value='in progress 3'/>
+    <entry value='523'/>
+    <entry value='5007'/>
+    <entry value='523'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.MapGrid Split' time='1462907296'>
+    <entry value='Split selected grid'/>
+    <entry value='523'/>
+    <entry value='5005'/>
+    <entry value='523'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.TODO' time='1462902260'>
+    <entry value='TODO'/>
+    <entry value='523'/>
+    <entry value='5007'/>
+    <entry value='523'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.ToDo' time='1462907296'>
+    <entry value='ToDo'/>
+    <entry value='523'/>
+    <entry value='5007'/>
+    <entry value='523'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.ToDo3' time='1462905828'>
+    <entry value='ToDo4'/>
+    <entry value='523'/>
+    <entry value='5007'/>
+    <entry value='523'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.addnode' time='1462907292'>
+    <entry value='Edit: Add Node...'/>
+    <entry value='68'/>
+    <entry value='5005'/>
+    <entry value='68'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.audio:back' time='1462907292'>
+    <entry value='Audio: Back'/>
+    <entry value='117'/>
+    <entry value='5003'/>
+    <entry value='117'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.audio:faster' time='1462907292'>
+    <entry value='Audio: Faster'/>
+    <entry value='120'/>
+    <entry value='5003'/>
+    <entry value='120'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.audio:forward' time='1462907292'>
+    <entry value='Audio: Forward'/>
+    <entry value='118'/>
+    <entry value='5003'/>
+    <entry value='118'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.audio:next' time='1462907292'>
+    <entry value='Audio: Next Marker'/>
+    <entry value='119'/>
+    <entry value='5003'/>
+    <entry value='119'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.audio:pause' time='1462907292'>
+    <entry value='Audio: Play/Pause'/>
+    <entry value='46'/>
+    <entry value='5003'/>
+    <entry value='46'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.audio:prev' time='1462907292'>
+    <entry value='Audio: Previous Marker'/>
+    <entry value='116'/>
+    <entry value='5003'/>
+    <entry value='116'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.audio:slower' time='1462907292'>
+    <entry value='Audio: Slower'/>
+    <entry value='115'/>
+    <entry value='5003'/>
+    <entry value='115'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.copy:coordinates' time='1462907292'>
+    <entry value='Edit: Copy Coordinates'/>
+    <entry value='67'/>
+    <entry value='5009'/>
+    <entry value='67'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:historyinfo' time='1462907292'>
+    <entry value='History'/>
+    <entry value='72'/>
+    <entry value='5006'/>
+    <entry value='72'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:historyinfoweb' time='1462907292'>
+    <entry value='History (web)'/>
+    <entry value='72'/>
+    <entry value='5009'/>
+    <entry value='72'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:info' time='1462907292'>
+    <entry value='Advanced info'/>
+    <entry value='73'/>
+    <entry value='5006'/>
+    <entry value='73'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:infoweb' time='1462907292'>
+    <entry value='Advanced info (web)'/>
+    <entry value='73'/>
+    <entry value='5009'/>
+    <entry value='73'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:movedown' time='1462907292'>
+    <entry value='Move objects down'/>
+    <entry value='40'/>
+    <entry value='5005'/>
+    <entry value='40'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:moveleft' time='1462907292'>
+    <entry value='Move objects left'/>
+    <entry value='37'/>
+    <entry value='5005'/>
+    <entry value='37'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:moveright' time='1462907292'>
+    <entry value='Move objects right'/>
+    <entry value='39'/>
+    <entry value='5005'/>
+    <entry value='39'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:moveup' time='1462907292'>
+    <entry value='Move objects up'/>
+    <entry value='38'/>
+    <entry value='5005'/>
+    <entry value='38'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core:none' time='1462907301'>
+    <entry value='No Shortcut'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core_multikey:activateLayer' time='1462907301'>
+    <entry value='Multikey: Activate layer'/>
+    <entry value='65'/>
+    <entry value='5005'/>
+    <entry value='65'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core_multikey:enableFilter' time='1462907301'>
+    <entry value='Multikey: Enable filter'/>
+    <entry value='69'/>
+    <entry value='5008'/>
+    <entry value='69'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core_multikey:hidingFilter' time='1462907301'>
+    <entry value='Multikey: Hide filter'/>
+    <entry value='72'/>
+    <entry value='5008'/>
+    <entry value='72'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core_multikey:nextMarker' time='1462907301'>
+    <entry value='Multikey: Next marker'/>
+    <entry value='74'/>
+    <entry value='5008'/>
+    <entry value='74'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core_multikey:previousMarker' time='1462907301'>
+    <entry value='Multikey: Previous marker'/>
+    <entry value='80'/>
+    <entry value='5008'/>
+    <entry value='80'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.core_multikey:showHideLayer' time='1462907301'>
+    <entry value='Multikey: Show/hide layer'/>
+    <entry value='83'/>
+    <entry value='5005'/>
+    <entry value='83'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.done' time='1462907296'>
+    <entry value='done'/>
+    <entry value='523'/>
+    <entry value='5007'/>
+    <entry value='523'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.edit:unselectall' time='1462907292'>
+    <entry value='Edit: Unselect All'/>
+    <entry value='27'/>
+    <entry value='5003'/>
+    <entry value='27'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:download' time='1462907292'>
+    <entry value='File: Download from OSM...'/>
+    <entry value='40'/>
+    <entry value='5009'/>
+    <entry value='40'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:download-overpass' time='1462907292'>
+    <entry value='File: Download from Overpass API ...'/>
+    <entry value='40'/>
+    <entry value='5007'/>
+    <entry value='40'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:downloadreferrers' time='1462907292'>
+    <entry value='File: Download parent ways/relations...'/>
+    <entry value='68'/>
+    <entry value='5008'/>
+    <entry value='68'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:exportgpx' time='1462907292'>
+    <entry value='Export to GPX...'/>
+    <entry value='69'/>
+    <entry value='5006'/>
+    <entry value='69'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:restart' time='1462907292'>
+    <entry value='File: Restart'/>
+    <entry value='74'/>
+    <entry value='5010'/>
+    <entry value='74'/>
+    <entry value='704'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:updatedata' time='1462907292'>
+    <entry value='File: Update data'/>
+    <entry value='85'/>
+    <entry value='5006'/>
+    <entry value='85'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:updatemodified' time='1462907292'>
+    <entry value='File: Update modified'/>
+    <entry value='77'/>
+    <entry value='5008'/>
+    <entry value='77'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:updateselection' time='1462907292'>
+    <entry value='File: Update selection'/>
+    <entry value='85'/>
+    <entry value='5008'/>
+    <entry value='85'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:upload' time='1462907292'>
+    <entry value='File: Upload data'/>
+    <entry value='38'/>
+    <entry value='5009'/>
+    <entry value='38'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.file:uploadSelection' time='1462907292'>
+    <entry value='File: Upload selection'/>
+    <entry value='85'/>
+    <entry value='5010'/>
+    <entry value='85'/>
+    <entry value='704'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.help:search-items' time='1462907292'>
+    <entry value='Search menu items'/>
+    <entry value='32'/>
+    <entry value='5006'/>
+    <entry value='32'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.help:showstatusreport' time='1462907292'>
+    <entry value='Help: Show Status Report'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.imagery:rectimg' time='1462907292'>
+    <entry value='Imagery: Rectified Image...'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.in progress' time='1462907296'>
+    <entry value='in progress'/>
+    <entry value='523'/>
+    <entry value='5007'/>
+    <entry value='523'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:ImproveWayAccuracy' time='1462907301'>
+    <entry value='Mode: Improve Way Accuracy'/>
+    <entry value='87'/>
+    <entry value='5003'/>
+    <entry value='87'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:backspace' time='1462907301'>
+    <entry value='Backspace in Add mode'/>
+    <entry value='8'/>
+    <entry value='5003'/>
+    <entry value='8'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:delete' time='1462907301'>
+    <entry value='Mode: Delete'/>
+    <entry value='127'/>
+    <entry value='5006'/>
+    <entry value='127'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:draw' time='1462907301'>
+    <entry value='Mode: Draw'/>
+    <entry value='65'/>
+    <entry value='5003'/>
+    <entry value='65'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:drawanglesnapping' time='1462907301'>
+    <entry value='Mode: Draw Angle snapping'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:extrude' time='1462907301'>
+    <entry value='Mode: Extrude'/>
+    <entry value='88'/>
+    <entry value='5003'/>
+    <entry value='88'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:extrudedualalign' time='1462907301'>
+    <entry value='Mode: Extrude Dual alignment'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:parallel' time='1462907301'>
+    <entry value='Mode: Parallel'/>
+    <entry value='80'/>
+    <entry value='5005'/>
+    <entry value='80'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:select' time='1462907301'>
+    <entry value='Mode: Select'/>
+    <entry value='83'/>
+    <entry value='5003'/>
+    <entry value='83'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.mapmode:zoom' time='1462907301'>
+    <entry value='Mode: Zoom'/>
+    <entry value='90'/>
+    <entry value='5003'/>
+    <entry value='90'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Audio' time='1462907292'>
+    <entry value='Menu: Audio'/>
+    <entry value='85'/>
+    <entry value='5001'/>
+    <entry value='85'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Data' time='1462907292'>
+    <entry value='Menu: Data'/>
+    <entry value='68'/>
+    <entry value='5001'/>
+    <entry value='68'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Edit' time='1462907292'>
+    <entry value='Menu: Edit'/>
+    <entry value='69'/>
+    <entry value='5001'/>
+    <entry value='69'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:File' time='1462907292'>
+    <entry value='Menu: File'/>
+    <entry value='70'/>
+    <entry value='5001'/>
+    <entry value='70'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:GPS' time='1462907292'>
+    <entry value='Menu: GPS'/>
+    <entry value='71'/>
+    <entry value='5001'/>
+    <entry value='71'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Help' time='1462907292'>
+    <entry value='Menu: Help'/>
+    <entry value='72'/>
+    <entry value='5001'/>
+    <entry value='72'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Imagery' time='1462907292'>
+    <entry value='Menu: Imagery'/>
+    <entry value='73'/>
+    <entry value='5001'/>
+    <entry value='73'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:More tools' time='1462907292'>
+    <entry value='Menu: More tools'/>
+    <entry value='77'/>
+    <entry value='5001'/>
+    <entry value='77'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Presets' time='1462907292'>
+    <entry value='Menu: Presets'/>
+    <entry value='80'/>
+    <entry value='5001'/>
+    <entry value='80'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Public Transport' time='1462469122'>
+    <entry value='Menu: Public Transport'/>
+    <entry value='44'/>
+    <entry value='5001'/>
+    <entry value='44'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Selection' time='1462907292'>
+    <entry value='Menu: Selection'/>
+    <entry value='78'/>
+    <entry value='5001'/>
+    <entry value='78'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Tools' time='1462907292'>
+    <entry value='Menu: Tools'/>
+    <entry value='84'/>
+    <entry value='5001'/>
+    <entry value='84'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:View' time='1462907292'>
+    <entry value='Menu: View'/>
+    <entry value='86'/>
+    <entry value='5001'/>
+    <entry value='86'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:Windows' time='1462907292'>
+    <entry value='Menu: Windows'/>
+    <entry value='87'/>
+    <entry value='5001'/>
+    <entry value='87'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:view:dialogspanel' time='1462907292'>
+    <entry value='Toggle dialogs panel'/>
+    <entry value='9'/>
+    <entry value='5003'/>
+    <entry value='9'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:view:fullscreen' time='1462907292'>
+    <entry value='Toggle fullscreen view'/>
+    <entry value='122'/>
+    <entry value='5003'/>
+    <entry value='122'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:view:viewportfollow' time='1462907292'>
+    <entry value='Toggle Viewport Following'/>
+    <entry value='70'/>
+    <entry value='5009'/>
+    <entry value='70'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:view:wireframe' time='1462907292'>
+    <entry value='Toggle Wireframe view'/>
+    <entry value='87'/>
+    <entry value='5006'/>
+    <entry value='87'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.menu:windows:changesetdialog' time='1462907292'>
+    <entry value='Toggle visibility of Changeset Manager window'/>
+    <entry value='67'/>
+    <entry value='5008'/>
+    <entry value='67'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.preset:search' time='1462907292'>
+    <entry value='Search presets'/>
+    <entry value='114'/>
+    <entry value='5003'/>
+    <entry value='114'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.preset:search-objects' time='1462907292'>
+    <entry value='Search for objects by preset'/>
+    <entry value='114'/>
+    <entry value='5005'/>
+    <entry value='114'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.properties:add' time='1462907301'>
+    <entry value='Add Tag'/>
+    <entry value='65'/>
+    <entry value='5004'/>
+    <entry value='65'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.properties:delete' time='1462907301'>
+    <entry value='Delete Tags'/>
+    <entry value='68'/>
+    <entry value='5010'/>
+    <entry value='68'/>
+    <entry value='704'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.properties:edit' time='1462907301'>
+    <entry value='Edit Tags'/>
+    <entry value='83'/>
+    <entry value='5004'/>
+    <entry value='83'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.relationeditor:editrecentrelation' time='1462907301'>
+    <entry value='Relation Editor: Open recent relation'/>
+    <entry value='27'/>
+    <entry value='5005'/>
+    <entry value='27'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.reportbug' time='1462907292'>
+    <entry value='Report a ticket to JOSM bugtracker'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:authors' time='1462907301'>
+    <entry value='Toggle: Authors'/>
+    <entry value='65'/>
+    <entry value='5007'/>
+    <entry value='65'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:commandstack' time='1462907301'>
+    <entry value='Toggle: Command Stack'/>
+    <entry value='79'/>
+    <entry value='5007'/>
+    <entry value='79'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:conflict' time='1462907301'>
+    <entry value='Toggle: Conflict'/>
+    <entry value='67'/>
+    <entry value='5007'/>
+    <entry value='67'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:filter' time='1462907301'>
+    <entry value='Toggle: Filter'/>
+    <entry value='70'/>
+    <entry value='5007'/>
+    <entry value='70'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers' time='1462907301'>
+    <entry value='Toggle: Layers'/>
+    <entry value='76'/>
+    <entry value='5007'/>
+    <entry value='76'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer1' time='1462907301'>
+    <entry value='Toggle visibility of layer: 1'/>
+    <entry value='49'/>
+    <entry value='5004'/>
+    <entry value='49'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer10' time='1462907301'>
+    <entry value='Toggle visibility of layer: 10'/>
+    <entry value='48'/>
+    <entry value='5004'/>
+    <entry value='48'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer2' time='1462907301'>
+    <entry value='Toggle visibility of layer: 2'/>
+    <entry value='50'/>
+    <entry value='5004'/>
+    <entry value='50'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer3' time='1462907301'>
+    <entry value='Toggle visibility of layer: 3'/>
+    <entry value='51'/>
+    <entry value='5004'/>
+    <entry value='51'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer4' time='1462907301'>
+    <entry value='Toggle visibility of layer: 4'/>
+    <entry value='52'/>
+    <entry value='5004'/>
+    <entry value='52'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer5' time='1462907301'>
+    <entry value='Toggle visibility of layer: 5'/>
+    <entry value='53'/>
+    <entry value='5004'/>
+    <entry value='53'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer6' time='1462907301'>
+    <entry value='Toggle visibility of layer: 6'/>
+    <entry value='54'/>
+    <entry value='5004'/>
+    <entry value='54'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer7' time='1462907301'>
+    <entry value='Toggle visibility of layer: 7'/>
+    <entry value='55'/>
+    <entry value='5004'/>
+    <entry value='55'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer8' time='1462907301'>
+    <entry value='Toggle visibility of layer: 8'/>
+    <entry value='56'/>
+    <entry value='5004'/>
+    <entry value='56'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:layers:toggleLayer9' time='1462907301'>
+    <entry value='Toggle visibility of layer: 9'/>
+    <entry value='57'/>
+    <entry value='5004'/>
+    <entry value='57'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:mappaint' time='1462907301'>
+    <entry value='Toggle: MapPaint'/>
+    <entry value='77'/>
+    <entry value='5007'/>
+    <entry value='77'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:properties' time='1462907301'>
+    <entry value='Toggle: Tags/Memberships'/>
+    <entry value='80'/>
+    <entry value='5007'/>
+    <entry value='80'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:relations' time='1462907301'>
+    <entry value='Toggle: Relations'/>
+    <entry value='82'/>
+    <entry value='5007'/>
+    <entry value='82'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:selection' time='1462907301'>
+    <entry value='Toggle: Current Selection'/>
+    <entry value='84'/>
+    <entry value='5007'/>
+    <entry value='84'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.subwindow:validator' time='1462907301'>
+    <entry value='Toggle: Validation results'/>
+    <entry value='86'/>
+    <entry value='5007'/>
+    <entry value='86'/>
+    <entry value='576'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:about' time='1462907292'>
+    <entry value='About'/>
+    <entry value='112'/>
+    <entry value='5005'/>
+    <entry value='112'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:closechangeset' time='1462907292'>
+    <entry value='File: Closes open changesets'/>
+    <entry value='81'/>
+    <entry value='5008'/>
+    <entry value='81'/>
+    <entry value='640'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:copy' time='1462907292'>
+    <entry value='Edit: Copy'/>
+    <entry value='67'/>
+    <entry value='5006'/>
+    <entry value='67'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:copy:cua' time='1462907292'>
+    <entry value='Edit: Copy'/>
+    <entry value='155'/>
+    <entry value='5006'/>
+    <entry value='155'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:copytags' time='1462907301'>
+    <entry value='Edit: Copy Tags'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:delete' time='1462907292'>
+    <entry value='Edit: Delete'/>
+    <entry value='127'/>
+    <entry value='5003'/>
+    <entry value='127'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:deletelayer' time='1462907292'>
+    <entry value='File: Delete Layer'/>
+    <entry value='115'/>
+    <entry value='5006'/>
+    <entry value='115'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:download_primitive' time='1462907292'>
+    <entry value='File: Download object...'/>
+    <entry value='79'/>
+    <entry value='5009'/>
+    <entry value='79'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:duplicate' time='1462907292'>
+    <entry value='Edit: Duplicate'/>
+    <entry value='68'/>
+    <entry value='5006'/>
+    <entry value='68'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:find' time='1462907292'>
+    <entry value='Search...'/>
+    <entry value='70'/>
+    <entry value='5006'/>
+    <entry value='70'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:help' time='1462907292'>
+    <entry value='Help'/>
+    <entry value='112'/>
+    <entry value='5003'/>
+    <entry value='112'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:menuexit' time='1462907292'>
+    <entry value='Exit'/>
+    <entry value='81'/>
+    <entry value='5006'/>
+    <entry value='81'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:merge' time='1462907292'>
+    <entry value='Edit: Merge'/>
+    <entry value='77'/>
+    <entry value='5006'/>
+    <entry value='77'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:mergeselection' time='1462907292'>
+    <entry value='Edit: Merge selection'/>
+    <entry value='77'/>
+    <entry value='5009'/>
+    <entry value='77'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:movefocusdown' time='1462907306'>
+    <entry value='Map: Move down'/>
+    <entry value='40'/>
+    <entry value='5006'/>
+    <entry value='40'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:movefocusleft' time='1462907306'>
+    <entry value='Map: Move left'/>
+    <entry value='37'/>
+    <entry value='5006'/>
+    <entry value='37'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:movefocusright' time='1462907306'>
+    <entry value='Map: Move right'/>
+    <entry value='39'/>
+    <entry value='5006'/>
+    <entry value='39'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:movefocusup' time='1462907306'>
+    <entry value='Map: Move up'/>
+    <entry value='38'/>
+    <entry value='5006'/>
+    <entry value='38'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:new' time='1462907292'>
+    <entry value='File: New Layer'/>
+    <entry value='78'/>
+    <entry value='5006'/>
+    <entry value='78'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:open' time='1462907292'>
+    <entry value='File: Open...'/>
+    <entry value='79'/>
+    <entry value='5006'/>
+    <entry value='79'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:open_location' time='1462907292'>
+    <entry value='File: Open Location...'/>
+    <entry value='76'/>
+    <entry value='5006'/>
+    <entry value='76'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:paste' time='1462907292'>
+    <entry value='Edit: Paste'/>
+    <entry value='86'/>
+    <entry value='5006'/>
+    <entry value='86'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:paste:cua' time='1462907292'>
+    <entry value='Edit: Paste'/>
+    <entry value='155'/>
+    <entry value='5005'/>
+    <entry value='155'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:pastestyle' time='1462907292'>
+    <entry value='Edit: Paste Tags'/>
+    <entry value='86'/>
+    <entry value='5009'/>
+    <entry value='86'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:preferences' time='1462907292'>
+    <entry value='Preferences'/>
+    <entry value='123'/>
+    <entry value='5003'/>
+    <entry value='123'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:purge' time='1462907292'>
+    <entry value='Edit: Purge'/>
+    <entry value='80'/>
+    <entry value='5009'/>
+    <entry value='80'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:redo' time='1462907292'>
+    <entry value='Edit: Redo'/>
+    <entry value='89'/>
+    <entry value='5006'/>
+    <entry value='89'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:save' time='1462907292'>
+    <entry value='File: Save'/>
+    <entry value='83'/>
+    <entry value='5006'/>
+    <entry value='83'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:saveas' time='1462907292'>
+    <entry value='File: Save As...'/>
+    <entry value='83'/>
+    <entry value='5009'/>
+    <entry value='83'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:selectall' time='1462907292'>
+    <entry value='Edit: Select All'/>
+    <entry value='65'/>
+    <entry value='5006'/>
+    <entry value='65'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.system:undo' time='1462907292'>
+    <entry value='Edit: Undo'/>
+    <entry value='90'/>
+    <entry value='5006'/>
+    <entry value='90'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:imagery-offset' time='1462907296'>
+    <entry value='Toolbar: Imagery offset'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Facilities/Food+Drinks' time='1462907296'>
+    <entry value='Toolbar: Facilities/Food+Drinks'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Facilities/Tourism' time='1462907296'>
+    <entry value='Toolbar: Facilities/Tourism'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Highways/Barriers' time='1462907296'>
+    <entry value='Toolbar: Highways/Barriers'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Highways/Streets' time='1462907296'>
+    <entry value='Toolbar: Highways/Streets'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Highways/Waypoints' time='1462907296'>
+    <entry value='Toolbar: Highways/Waypoints'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Highways/Ways' time='1462907296'>
+    <entry value='Toolbar: Highways/Ways'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Man Made/Historic Places' time='1462907296'>
+    <entry value='Toolbar: Man Made/Historic Places'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Man Made/Man Made' time='1462907296'>
+    <entry value='Toolbar: Man Made/Man Made'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Transport/Car' time='1462907296'>
+    <entry value='Toolbar: Transport/Car'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.toolbar:tagginggroup_Transport/Public Transport' time='1462907296'>
+    <entry value='Toolbar: Transport/Public Transport'/>
+    <entry value='65535'/>
+    <entry value='5000'/>
+    <entry value='65535'/>
+    <entry value='-1'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:aligncircle' time='1462907292'>
+    <entry value='Tool: Align Nodes in Circle'/>
+    <entry value='79'/>
+    <entry value='5003'/>
+    <entry value='79'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:alignline' time='1462907292'>
+    <entry value='Tool: Align Nodes in Line'/>
+    <entry value='76'/>
+    <entry value='5003'/>
+    <entry value='76'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:combineway' time='1462907292'>
+    <entry value='Tool: Combine Way'/>
+    <entry value='67'/>
+    <entry value='5003'/>
+    <entry value='67'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:createcircle' time='1462907292'>
+    <entry value='Tool: Create Circle'/>
+    <entry value='79'/>
+    <entry value='5005'/>
+    <entry value='79'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:distribute' time='1462907292'>
+    <entry value='Tool: Distribute Nodes'/>
+    <entry value='66'/>
+    <entry value='5005'/>
+    <entry value='66'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:followline' time='1462907292'>
+    <entry value='Tool: Follow'/>
+    <entry value='70'/>
+    <entry value='5003'/>
+    <entry value='70'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:joinareas' time='1462907292'>
+    <entry value='Tool: Join overlapping Areas'/>
+    <entry value='74'/>
+    <entry value='5005'/>
+    <entry value='74'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:joinnodeway' time='1462907292'>
+    <entry value='Tool: Join Node to Way'/>
+    <entry value='74'/>
+    <entry value='5003'/>
+    <entry value='74'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:jumpto' time='1462907292'>
+    <entry value='Tool: Jump To Position'/>
+    <entry value='74'/>
+    <entry value='5006'/>
+    <entry value='74'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:mergenodes' time='1462907292'>
+    <entry value='Tool: Merge Nodes'/>
+    <entry value='77'/>
+    <entry value='5003'/>
+    <entry value='77'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:mirror' time='1462907292'>
+    <entry value='Tool: Mirror'/>
+    <entry value='77'/>
+    <entry value='5005'/>
+    <entry value='77'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:movenodeontoway' time='1462907292'>
+    <entry value='Tool: Move Node onto Way'/>
+    <entry value='78'/>
+    <entry value='5003'/>
+    <entry value='78'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:multipoly_create' time='1462907292'>
+    <entry value='Tool: Create multipolygon'/>
+    <entry value='66'/>
+    <entry value='5006'/>
+    <entry value='66'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:multipoly_update' time='1462907292'>
+    <entry value='Tool: Update multipolygon'/>
+    <entry value='66'/>
+    <entry value='5009'/>
+    <entry value='66'/>
+    <entry value='192'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:orthogonalize' time='1462907292'>
+    <entry value='Tool: Orthogonalize Shape'/>
+    <entry value='81'/>
+    <entry value='5003'/>
+    <entry value='81'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:orthogonalizeUndo' time='1462907292'>
+    <entry value='Tool: Orthogonalize Shape / Undo'/>
+    <entry value='81'/>
+    <entry value='5005'/>
+    <entry value='81'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:reverse' time='1462907292'>
+    <entry value='Tool: Reverse Ways'/>
+    <entry value='82'/>
+    <entry value='5003'/>
+    <entry value='82'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:simplify' time='1462907292'>
+    <entry value='Tool: Simplify Way'/>
+    <entry value='89'/>
+    <entry value='5005'/>
+    <entry value='89'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:splitway' time='1462907292'>
+    <entry value='Tool: Split Way'/>
+    <entry value='80'/>
+    <entry value='5003'/>
+    <entry value='80'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:unglue' time='1462907292'>
+    <entry value='Tool: UnGlue Ways'/>
+    <entry value='71'/>
+    <entry value='5003'/>
+    <entry value='71'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:unjoinnodeway' time='1462907292'>
+    <entry value='Tool: Disconnect Node from Way'/>
+    <entry value='74'/>
+    <entry value='5004'/>
+    <entry value='74'/>
+    <entry value='512'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.tools:validate' time='1462907293'>
+    <entry value='Tool: Validation'/>
+    <entry value='86'/>
+    <entry value='5005'/>
+    <entry value='86'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:gpxlines' time='1462907292'>
+    <entry value='View: Toggle GPX Lines'/>
+    <entry value='88'/>
+    <entry value='5005'/>
+    <entry value='88'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomconflict' time='1462907292'>
+    <entry value='View: Zoom to conflict'/>
+    <entry value='52'/>
+    <entry value='5003'/>
+    <entry value='52'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomdata' time='1462907292'>
+    <entry value='View: Zoom to data'/>
+    <entry value='49'/>
+    <entry value='5003'/>
+    <entry value='49'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomdownload' time='1462907292'>
+    <entry value='View: Zoom to download'/>
+    <entry value='53'/>
+    <entry value='5003'/>
+    <entry value='53'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomin' time='1462907292'>
+    <entry value='View: Zoom In'/>
+    <entry value='521'/>
+    <entry value='5003'/>
+    <entry value='521'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoominalternate' time='1462907306'>
+    <entry value='Map: Zoom in'/>
+    <entry value='44'/>
+    <entry value='5006'/>
+    <entry value='44'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoominbis' time='1462907292'>
+    <entry value='View: Zoom In'/>
+    <entry value='61'/>
+    <entry value='5005'/>
+    <entry value='61'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoominkeypad' time='1462907292'>
+    <entry value='View: Zoom In (Keypad)'/>
+    <entry value='107'/>
+    <entry value='5003'/>
+    <entry value='107'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoominter' time='1462907292'>
+    <entry value='View: Zoom In'/>
+    <entry value='61'/>
+    <entry value='5003'/>
+    <entry value='61'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomlayer' time='1462907292'>
+    <entry value='View: Zoom to layer'/>
+    <entry value='50'/>
+    <entry value='5003'/>
+    <entry value='50'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomnext' time='1462907292'>
+    <entry value='View: Zoom to next'/>
+    <entry value='57'/>
+    <entry value='5003'/>
+    <entry value='57'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomout' time='1462907292'>
+    <entry value='View: Zoom Out'/>
+    <entry value='45'/>
+    <entry value='5003'/>
+    <entry value='45'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomoutalternate' time='1462907306'>
+    <entry value='Map: Zoom out'/>
+    <entry value='46'/>
+    <entry value='5006'/>
+    <entry value='46'/>
+    <entry value='128'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomoutkeypad' time='1462907292'>
+    <entry value='View: Zoom Out (Keypad)'/>
+    <entry value='109'/>
+    <entry value='5003'/>
+    <entry value='109'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomprevious' time='1462907292'>
+    <entry value='View: Zoom to previous'/>
+    <entry value='56'/>
+    <entry value='5003'/>
+    <entry value='56'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomproblem' time='1462907292'>
+    <entry value='View: Zoom to problem'/>
+    <entry value='54'/>
+    <entry value='5003'/>
+    <entry value='54'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.view:zoomselection' time='1462907292'>
+    <entry value='View: Zoom to selection'/>
+    <entry value='51'/>
+    <entry value='5003'/>
+    <entry value='51'/>
+    <entry value='0'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <list key='shortcut.entry.wayselector:wayselect' time='1462907292'>
+    <entry value='Non-branching way sequences'/>
+    <entry value='87'/>
+    <entry value='5005'/>
+    <entry value='87'/>
+    <entry value='64'/>
+    <entry value='true'/>
+    <entry value='false'/>
+  </list>
+  <tag key='sidetoolbar.hidden.dialogs/changesetdialog' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/commandstack' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/conflict' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/filter' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/layerlist' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/mapstyle' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/minimap' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/notes/note_open' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/propertiesdialog' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/relationlist' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/selectionlist' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/userlist' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.dialogs/validator' time='1462470403' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.mapmode/delete' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.mapmode/extrude/extrude' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.mapmode/improvewayaccuracy' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.mapmode/move/move' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.mapmode/node/autonode' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.mapmode/parallel' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.mapmode/zoom' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hidden.org.openstreetmap.josm.actions.LassoModeAction' time='1462470402' xsi:nil='true'/>
+  <tag key='sidetoolbar.hideDisabledButtons' time='1462907350' value='false'/>
+  <tag key='sidetoolbar.mapmodes.visible' time='1462907301' value='true'/>
+  <tag key='sidetoolbar.scrollable' time='1462907301' value='true'/>
+  <tag key='sidetoolbar.toggledialogs.visible' time='1462907301' value='true'/>
+  <tag key='sidetoolbar.visible' time='1462907301' value='true'/>
+  <tag key='slippy_map_chooser.file_cache' time='1462907301' value='true'/>
+  <tag key='slippy_map_chooser.mapstyle' time='1462907301' value='Mapnik'/>
+  <tag key='slippy_map_chooser.max_tiles' time='1462907301' value='1000'/>
+  <tag key='slippy_map_chooser.zoomcontrols' time='1462907301' value='false'/>
+  <tag key='socket.maxredirects' time='1462896513' value='5'/>
+  <tag key='socket.timeout.connect' time='1462907301' value='15'/>
+  <tag key='socket.timeout.read' time='1462907301' value='30'/>
+  <tag key='statusbar.change-system-of-measurement-on-click' time='1462907301' value='true'/>
+  <tag key='statusbar.decimal-format' time='1462907301' value='0.0'/>
+  <tag key='statusbar.distance-threshold' time='1462907301' value='0.01'/>
+  <tag key='statusline.visible' time='1462907301' value='true'/>
+  <tag key='system_of_measurement' time='1462907383' value='Metric'/>
+  <tag key='system_of_measurement.use_only_lower_unit' time='1462907383' value='false'/>
+  <tag key='tag-correction.reverse-way' time='1462907292' value='true'/>
+  <maps key='taggingpreset.entries' time='1462108907' xsi:nil='true'/>
+  <tag key='taggingpreset.fill-default-for-tagged-primitives' time='1462907292' value='false'/>
+  <list key='taggingpreset.icon.sources' time='1462108907' xsi:nil='true'/>
+  <tag key='taggingpreset.min-elements-for-scroller' time='1462907296' value='15'/>
+  <tag key='taggingpreset.sortmenu' time='1462312565' value='false'/>
+  <tag key='taggingpreset.sortvalues' time='1462907295' value='true'/>
+  <tag key='taginfo.url' time='1462907301' value='https://taginfo.openstreetmap.org/'/>
+  <tag key='tags.direction' time='1462907292' value='oneway? | (aerialway=* -aerialway=station) | waterway=stream | waterway=river | waterway=ditch | waterway=drain | &quot;piste:type&quot;=downhill | &quot;piste:type&quot;=sled | man_made=&quot;piste:halfpipe&quot; | junction=roundabout | (highway=motorway &amp; -oneway=no &amp; -oneway=reversible) | (highway=motorway_link &amp; -oneway=no &amp; -oneway=reversible)'/>
+  <list key='tags.discardable' time='1462907292'>
+    <entry value='created_by'/>
+    <entry value='geobase:datasetName'/>
+    <entry value='geobase:uuid'/>
+    <entry value='KSJ2:ADS'/>
+    <entry value='KSJ2:ARE'/>
+    <entry value='KSJ2:AdminArea'/>
+    <entry value='KSJ2:COP_label'/>
+    <entry value='KSJ2:DFD'/>
+    <entry value='KSJ2:INT'/>
+    <entry value='KSJ2:INT_label'/>
+    <entry value='KSJ2:LOC'/>
+    <entry value='KSJ2:LPN'/>
+    <entry value='KSJ2:OPC'/>
+    <entry value='KSJ2:PubFacAdmin'/>
+    <entry value='KSJ2:RAC'/>
+    <entry value='KSJ2:RAC_label'/>
+    <entry value='KSJ2:RIC'/>
+    <entry value='KSJ2:RIN'/>
+    <entry value='KSJ2:WSC'/>
+    <entry value='KSJ2:coordinate'/>
+    <entry value='KSJ2:curve_id'/>
+    <entry value='KSJ2:curve_type'/>
+    <entry value='KSJ2:filename'/>
+    <entry value='KSJ2:lake_id'/>
+    <entry value='KSJ2:lat'/>
+    <entry value='KSJ2:long'/>
+    <entry value='KSJ2:river_id'/>
+    <entry value='odbl'/>
+    <entry value='odbl:note'/>
+    <entry value='SK53_bulk:load'/>
+    <entry value='sub_sea:type'/>
+    <entry value='tiger:source'/>
+    <entry value='tiger:separated'/>
+    <entry value='tiger:tlid'/>
+    <entry value='tiger:upload_uuid'/>
+    <entry value='yh:LINE_NAME'/>
+    <entry value='yh:LINE_NUM'/>
+    <entry value='yh:STRUCTURE'/>
+    <entry value='yh:TOTYUMONO'/>
+    <entry value='yh:TYPE'/>
+    <entry value='yh:WIDTH'/>
+    <entry value='yh:WIDTH_RANK'/>
+  </list>
+  <tag key='tags.reversed_direction' time='1462907292' value='oneway=&quot;-1&quot;'/>
+  <list key='tags.uninteresting' time='1462907292'>
+    <entry value='source'/>
+    <entry value='source_ref'/>
+    <entry value='source:'/>
+    <entry value='comment'/>
+    <entry value='converted_by'/>
+    <entry value='watch'/>
+    <entry value='watch:'/>
+    <entry value='description'/>
+    <entry value='attribution'/>
+    <entry value='created_by'/>
+    <entry value='geobase:datasetName'/>
+    <entry value='geobase:uuid'/>
+    <entry value='KSJ2:ADS'/>
+    <entry value='KSJ2:ARE'/>
+    <entry value='KSJ2:AdminArea'/>
+    <entry value='KSJ2:COP_label'/>
+    <entry value='KSJ2:DFD'/>
+    <entry value='KSJ2:INT'/>
+    <entry value='KSJ2:INT_label'/>
+    <entry value='KSJ2:LOC'/>
+    <entry value='KSJ2:LPN'/>
+    <entry value='KSJ2:OPC'/>
+    <entry value='KSJ2:PubFacAdmin'/>
+    <entry value='KSJ2:RAC'/>
+    <entry value='KSJ2:RAC_label'/>
+    <entry value='KSJ2:RIC'/>
+    <entry value='KSJ2:RIN'/>
+    <entry value='KSJ2:WSC'/>
+    <entry value='KSJ2:coordinate'/>
+    <entry value='KSJ2:curve_id'/>
+    <entry value='KSJ2:curve_type'/>
+    <entry value='KSJ2:filename'/>
+    <entry value='KSJ2:lake_id'/>
+    <entry value='KSJ2:lat'/>
+    <entry value='KSJ2:long'/>
+    <entry value='KSJ2:river_id'/>
+    <entry value='odbl'/>
+    <entry value='odbl:note'/>
+    <entry value='SK53_bulk:load'/>
+    <entry value='sub_sea:type'/>
+    <entry value='tiger:source'/>
+    <entry value='tiger:separated'/>
+    <entry value='tiger:tlid'/>
+    <entry value='tiger:upload_uuid'/>
+    <entry value='yh:LINE_NAME'/>
+    <entry value='yh:LINE_NUM'/>
+    <entry value='yh:STRUCTURE'/>
+    <entry value='yh:TOTYUMONO'/>
+    <entry value='yh:TYPE'/>
+    <entry value='yh:WIDTH'/>
+    <entry value='yh:WIDTH_RANK'/>
+    <entry value='note'/>
+    <entry value='fixme'/>
+    <entry value='FIXME'/>
+  </list>
+  <list key='tags.workinprogress' time='1462907292'>
+    <entry value='note'/>
+    <entry value='fixme'/>
+    <entry value='FIXME'/>
+  </list>
+  <tag key='text.popupmenu.useicons' time='1462907386' value='true'/>
+  <tag key='tls.add-missing-certificates' time='1462907290' value='true'/>
+  <tag key='toggleDialogs.width' time='1462907301' value='330'/>
+  <list key='toolbar' time='1462907296'>
+    <entry value='open'/>
+    <entry value='save'/>
+    <entry value='download'/>
+    <entry value='upload'/>
+    <entry value='|'/>
+    <entry value='undo'/>
+    <entry value='redo'/>
+    <entry value='|'/>
+    <entry value='dialogs/search'/>
+    <entry value='preference'/>
+    <entry value='|'/>
+    <entry value='splitway'/>
+    <entry value='combineway'/>
+    <entry value='wayflip'/>
+    <entry value='|'/>
+    <entry value='imagery-offset'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Highways/Streets'/>
+    <entry value='tagginggroup_Highways/Ways'/>
+    <entry value='tagginggroup_Highways/Waypoints'/>
+    <entry value='tagginggroup_Highways/Barriers'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Transport/Car'/>
+    <entry value='tagginggroup_Transport/Public Transport'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Facilities/Tourism'/>
+    <entry value='tagginggroup_Facilities/Food+Drinks'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Man Made/Historic Places'/>
+    <entry value='|'/>
+    <entry value='tagginggroup_Man Made/Man Made'/>
+  </list>
+  <tag key='toolbar.visible' time='1462907296' value='true'/>
+  <tag key='use.native.file.dialog' time='1462896041' value='false'/>
+  <tag key='userlist.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='userlist.docked' time='1462907301' value='true'/>
+  <tag key='userlist.minimized' time='1462907301' value='false'/>
+  <tag key='userlist.visible' time='1462907301' value='false'/>
+  <tag key='validated.ipv6' time='1462907290' value='false'/>
+  <tag key='validator.TagChecker.checkComplex' time='1462825349' value='true'/>
+  <tag key='validator.TagChecker.checkComplexBeforeUpload' time='1462825349' value='true'/>
+  <tag key='validator.TagChecker.checkFixmes' time='1462825349' value='true'/>
+  <tag key='validator.TagChecker.checkFixmesBeforeUpload' time='1462825349' value='true'/>
+  <tag key='validator.TagChecker.checkKeys' time='1462825349' value='true'/>
+  <tag key='validator.TagChecker.checkKeysBeforeUpload' time='1462825349' value='true'/>
+  <tag key='validator.TagChecker.checkValues' time='1462825349' value='true'/>
+  <tag key='validator.TagChecker.checkValuesBeforeUpload' time='1462825349' value='true'/>
+  <list key='validator.TagChecker.source' time='1462825349'>
+    <entry value='resource://data/validator/ignoretags.cfg'/>
+    <entry value='resource://data/validator/words.cfg'/>
+  </list>
+  <tag key='validator.UnconnectedWays.node_way_distance' time='1462825349' value='10.0'/>
+  <tag key='validator.UnconnectedWays.way_way_distance' time='1462825349' value='0.0'/>
+  <tag key='validator.auto_reload_local_rules' time='1462825348' value='true'/>
+  <tag key='validator.buttonhiding' time='1462907301' value='DYNAMIC'/>
+  <tag key='validator.check_assert_local_rules' time='1462825348' value='false'/>
+  <tag key='validator.docked' time='1462907301' value='true'/>
+  <tag key='validator.duplicatenodes.precision' time='1462825349' value='0.0'/>
+  <tag key='validator.ignore' time='1462907301' value='true'/>
+  <list key='validator.knownkeys' time='1462825349'>
+    <entry value='is_in'/>
+    <entry value='int_ref'/>
+    <entry value='fixme'/>
+    <entry value='population'/>
+  </list>
+  <tag key='validator.layer' time='1462825351' value='true'/>
+  <tag key='validator.maximum.segment.length' time='1462825349' value='15000'/>
+  <tag key='validator.minimized' time='1462907301' value='false'/>
+  <maps key='validator.org.openstreetmap.josm.data.validation.tests.MapCSSTagChecker.entries' time='1462109615' xsi:nil='true'/>
+  <tag key='validator.other' time='1462874696' value='false'/>
+  <tag key='validator.otherUpload' time='1462109614' value='false'/>
+  <tag key='validator.selectionFilter' time='1462825351' value='false'/>
+  <list key='validator.skip' time='1462109614' xsi:nil='true'/>
+  <list key='validator.skipBeforeUpload' time='1462109614' xsi:nil='true'/>
+  <tag key='validator.visible' time='1462907301' value='false'/>
+  <tag key='zoom.intermediate-steps' time='1462907291' value='true'/>
+  <tag key='zoom.ratio' time='1462902338' value='2.0'/>
+  <tag key='zoom.reverse-wheel' time='1462907306' value='false'/>
+  <tag key='zoom.undo.delay' time='1462902338' value='1.0'/>
+  <tag key='zoom.undo.max' time='1462902338' value='50'/>
+</preferences-defaults>

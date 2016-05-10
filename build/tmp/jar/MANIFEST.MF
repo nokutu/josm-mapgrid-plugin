@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Gradle-Version: 2.10
+Created-By: 1.7.0_101 (Oracle Corporation)
+Plugin-Mainversion: 8433
+Plugin-Version: 31976
+Plugin-SemVersion: 0.1
+Plugin-Class: org.openstreetmap.josm.plugins.mapgrid.MapGridPlugin
+Plugin-Description: Allows the user to divide the map in grids
+Plugin-Date: 2016-05-10T21:10:05+0200
+Author: nokutu <nokutu@openmailbox.org>
+Plugin-Link: https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Mapillar
+ y
+Plugin-Icon: images/icon24.png
+Plugin-Canloadatruntime: true
+

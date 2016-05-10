@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="MapGrid" default="dist" basedir=".">
+
+  <!-- edit the properties of this plugin in the file `gradle.properties` -->
+  <property file="${basedir}/gradle.properties"/>
+
+  <property name="josm" location="../../core/dist/josm-custom.jar"/>
+  <property name="plugin.dist.dir" value="../../dist"/>
+
+  <!-- ** include targets that all plugins have in common ** -->
+  <import file="../build-common.xml"/>
+</project>
